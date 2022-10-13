@@ -17,7 +17,7 @@ int main(void)
     long long  d = 17678228754;
     float    e   = 678.53f;
 
-    printf("\nSize of a char: %d %s", sizeof(a), "byte(s)");
+    printf("Size of a char: %d %s", sizeof(a), "byte(s)");
     printf("\nSize of an int: %d %s", sizeof(b), "byte(s)");
     printf("\nSize of a long int: %d %s", sizeof(c), "byte(s)");
     printf("\nSize of a long long int: %d %s", sizeof(d), "byte(s)");
