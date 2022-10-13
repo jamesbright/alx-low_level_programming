@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-/* 
- * program prints string
+/*
+ * main - program prints string
+ (* a blank line
+ * Description: this is an example on the use of puts)
+ * Return: returns 0 at end of execution
  */
-int main() 
+int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
-return 0;
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
