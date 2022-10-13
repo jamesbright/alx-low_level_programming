@@ -17,11 +17,11 @@ int main(void)
     long long  d = 1767822.40;
     float    e   = 678.53f;
 
-    printf("\nSize of a char: %d %s", sizeof(a), byte(s));
-    printf("\nSize of an int: %d %s", sizeof(b), byte(s));
-    printf("\nSize of a long: %d %s", sizeof(c), byte(s));
-    printf("\nSize of a long long: %d %s", sizeof(d), byte(s));
-    printf("\nSize of a float: %d %s", sizeof(f), byte(s));
+    printf("\nSize of a char: %d %s", sizeof(a), "byte(s)");
+    printf("\nSize of an int: %d %s", sizeof(b), "byte(s)");
+    printf("\nSize of a long: %d %s", sizeof(c), "byte(s)");
+    printf("\nSize of a long long: %d %s", sizeof(d), "byte(s)");
+    printf("\nSize of a float: %d %s", sizeof(f), "byte(s)");
 
     return (0);
 }
