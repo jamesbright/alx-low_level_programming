@@ -4,7 +4,7 @@
 /* 
  * program prints string
  */
-int main() i
+int main() 
 {
 puts("\"Programming is like building a multilingual puzzle\n");
 return 0;
