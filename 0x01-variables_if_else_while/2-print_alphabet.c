@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-int i;
+unsigned int i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 for (i = 0; i < strlen(alphabet); ++i)
 {
