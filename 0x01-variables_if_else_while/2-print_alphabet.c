@@ -9,8 +9,9 @@
  */
 int main(void)
 {
+int i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0; i < strlen(alphabet); ++i)
+for (i = 0; i < strlen(alphabet); ++i)
 {
 putchar(alphabet[i]);
 putchar('\n');
