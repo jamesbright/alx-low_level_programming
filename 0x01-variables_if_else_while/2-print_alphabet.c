@@ -15,7 +15,7 @@ char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 for (i = 0; i < strlen(alphabet); ++i)
 {
 putchar(alphabet[i]);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
