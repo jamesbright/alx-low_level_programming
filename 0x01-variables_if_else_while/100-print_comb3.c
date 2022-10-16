@@ -19,7 +19,7 @@ if (n > 0)
 {
 if (j / 10 % 10 > j % 10)
 break;
-int k = j /= 10;
+int k = j / 10;
 if (k == 0)
 {
 putchar(',');
