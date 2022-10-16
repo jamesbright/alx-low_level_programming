@@ -13,8 +13,8 @@ int main(void)
 unsigned int i;
 for (i = 0; i <= 9; ++i)
 {
-printf("%d",i);
+printf("%d", i);
 }
-printf("%s","\n");
+printf("%s", "\n");
 return (0);
 }
