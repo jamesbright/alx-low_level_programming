@@ -10,9 +10,10 @@
  */
 int main(void)
 {
-unsigned int i;
+int i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-for (i = strlen(alphabet); i >= 0; --i)
+int alpha_len = strlen(alphabet);
+for (i = alpha_len; i >= 0; i--)
 {
 putchar(alphabet[i]);
 }
