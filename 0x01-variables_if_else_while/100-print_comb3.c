@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-int i, j, n = 0;
+int i, j, k, n = 0;
 for (i = 0; i < 100; i++, n++)
 {
 for (j = i;;)
@@ -19,7 +19,7 @@ if (n > 0)
 {
 if (j / 10 % 10 > j % 10)
 break;
-int k = j / 10;
+k = j / 10;
 if (k == 0)
 {
 putchar(',');
