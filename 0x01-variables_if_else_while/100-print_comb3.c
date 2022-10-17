@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-int i, j, k, n = 0;
+int i, j, n = 0;
 for (i = 0; i < 99; ++i, n++)
 {
 for (j = 0; j <= 99; ++j)
@@ -24,6 +24,7 @@ if(i != j)
 {
 putchar('0' + i);
 putchar('0' + j);
+}
 }
 }
 putchar('\n');
