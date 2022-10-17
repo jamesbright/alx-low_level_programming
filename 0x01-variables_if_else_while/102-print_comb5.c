@@ -19,7 +19,8 @@ for (m = 0; m <= 9; ++m)
 {
 if (j > i && k == m)
 continue;
-
+if (k != m)
+{
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
 putchar(' ');
@@ -29,6 +30,7 @@ if (i == 9 && j == 8 && k == 9 && m == 9)
 continue;
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
