@@ -17,10 +17,11 @@ for (j = 0; j <= 99; ++j)
 {
 if (i == 99)
 continue;
-
+if(i != j)
+{
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
-
+}
 putchar(',');
 putchar(' ');
 }
