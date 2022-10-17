@@ -17,9 +17,10 @@ for (k = 0; k <= 9; ++k)
 {
 for (m = 0; m <= 9; ++m)
 {
-if (j > i && k == m)
+if(k == m && i < j)
 continue;
-if (j < m)
+
+if(i != j || k != m)
 {
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
