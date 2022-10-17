@@ -10,18 +10,19 @@
  */
 int main(void)
 {
-int i, j, n = 0;
+int i, j;
 for (i = 0; i <= 99; ++i, n++)
 {
 for (j = 0; j <= 99; ++j)
 {
-if (n > 0)
-{
+if (i == 99)
+continue;
+
+putchar((i % 10) + '0');
+putchar((j % 10) + '0');
+
 putchar(',');
 putchar(' ');
-}
-putchar('0' + i);
-putchar('0' + j);
 }
 }
 putchar('\n');
