@@ -19,7 +19,7 @@ for (m = 0; m <= 9; ++m)
 {
 if (j > i && k == m)
 continue;
-if (k != m)
+if (j < m)
 {
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
