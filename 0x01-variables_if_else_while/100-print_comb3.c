@@ -11,7 +11,7 @@
 int main(void)
 {
 int i, j, n = 0;
-for (i = 0; i < 99; ++i, n++)
+for (i = 0; i <= 99; ++i, n++)
 {
 for (j = 0; j <= 99; ++j)
 {
@@ -20,11 +20,8 @@ if (n > 0)
 putchar(',');
 putchar(' ');
 }
-if(i != j)
-{
 putchar('0' + i);
 putchar('0' + j);
-}
 }
 }
 putchar('\n');
