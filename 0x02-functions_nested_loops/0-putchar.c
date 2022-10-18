@@ -1,6 +1,5 @@
-#define MAIN_H "main.h"
 #include <stdio.h>
-#include MAIN_H
+#include "main.h"
 
 /** 
  * main - function to print _putchar
