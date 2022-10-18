@@ -3,6 +3,6 @@
 
 void print_putchar(void)
 {
-printf("%s", "_putchar");
+printf("%s", "_putchar\n");
 }
 #endif
