@@ -11,10 +11,10 @@ printf("%s", "\n");
 for (j = 0; j <= 9; ++j)
 {
 result = num * j;
-printf("%10d", result);
+printf("%d", result);
 if (j == 9)
 continue;
-printf("%10s", ", ");
+printf("%s", ", ");
 }
 num++;
 }
