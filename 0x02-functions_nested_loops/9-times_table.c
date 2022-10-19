@@ -20,10 +20,10 @@ printf("%d", result);
 
 if (j == 9)
 continue;
-if(result >= 10)
+if (result >= 10)
 printf("%s", ", ");
 else
-printf("%s",",  ");
+printf("%s", ",  ");
 
 }
 
