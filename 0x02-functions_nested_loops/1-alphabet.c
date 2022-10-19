@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints the alphabets y
+ * print_alphabet - prints the alphabets y
  * Description: function prints the alphabet
  * Return: always return 0 after execution
  */
