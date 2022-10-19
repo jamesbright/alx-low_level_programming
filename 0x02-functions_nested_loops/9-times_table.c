@@ -29,11 +29,9 @@ my_putchar(result);
 if (j == 9)
 continue;
 putchar(',');
+putchar(' ');
 if (result > 9)
 putchar(' ');
-else
-putchar('  ');
-}
 num++;
 }
 }
