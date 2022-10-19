@@ -26,7 +26,6 @@ for (i = 0; i < strlen(alphabet); ++i)
 putchar(alphabet[i]);
 }
 putchar('\n');
-return (0);
 }
 
 /**
@@ -46,6 +45,5 @@ putchar(alphabet[i]);
 }
 counter--;
 putchar('\n');
-return (0);
 }
 #endif
