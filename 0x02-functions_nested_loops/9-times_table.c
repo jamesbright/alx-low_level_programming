@@ -10,7 +10,7 @@ putchar('\n');
 for (j = 0; j <= 9; ++j)
 {
 result = num * j;
-__putchar(result);
+_putchar(result);
 
 if (j == 9)
 continue;
