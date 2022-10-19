@@ -21,8 +21,6 @@ printf("%-3d", result);
 if (j == 9)
 continue;
 
-_putchar(',');
-_putchar(' ');
 }
 printf("%s", "\n");
 
