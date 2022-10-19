@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <string.h>
 
 /**
  * print_alphabet_x10 - prints the alphabets y
