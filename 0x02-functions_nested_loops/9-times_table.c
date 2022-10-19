@@ -18,7 +18,7 @@ if (j == 9)
 continue;
 
 printf("%s", ", ");
-if(j >= 10)
+if(result < 10)
 printf("%s", " ");
 
 }
