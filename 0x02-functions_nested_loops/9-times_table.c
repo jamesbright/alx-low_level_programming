@@ -24,7 +24,7 @@ putchar('\n');
 for (j = 0; j <= 9; ++j)
 {
 result = num * j;
-printf("%-11s%d",result);
+printf("%-11d%d",result);
 
 if (j == 9)
 continue;
