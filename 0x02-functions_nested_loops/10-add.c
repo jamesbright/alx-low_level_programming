@@ -7,9 +7,9 @@
  * @b: second value
  * Return: return the result of the two numbers added
  */
- 
- int add(int a, int b)
- {
+
+int add(int a, int b)
+{
 int sum = a + b;
 return (sum);
- }
+}
