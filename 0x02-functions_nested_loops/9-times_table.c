@@ -25,7 +25,7 @@ _putchar('0' + lastDigit);
 }
 else
 {
-_putchar('0' + (result % 10));
+_putchar('0' + result);
 }
 if (j == 9)
 continue;
