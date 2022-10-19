@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /*** 
  * print_alphabet_x10 - prints the alphabets 10 times
