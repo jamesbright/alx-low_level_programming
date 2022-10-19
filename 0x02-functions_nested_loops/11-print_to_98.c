@@ -18,8 +18,7 @@ printf("%d", i);
 
 if (i == 98)
 continue;
-_putchar(',');
-_putchar(' ');
+printf("%s", ", ");
 
 }
 }
@@ -32,10 +31,11 @@ printf("%d", i);
 
 if (i == 98)
 continue;
-_putchar(',');
-_putchar(' ');
+printf("%s",", ");
 }
 }
 else if(i == 98)
 printf("%d", i);
+
+printf("%s", "\n");
 }
