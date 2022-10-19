@@ -16,12 +16,12 @@ for (j = 0; j <= 9; j++)
 {
 
 result = num * j;
-printf("%-2d", result);
+printf("%-3d", result);
 
 if (j == 9)
 continue;
 
-printf("%s", ",");
+printf("%4s", ",");
 }
 printf("%s", "\n");
 
