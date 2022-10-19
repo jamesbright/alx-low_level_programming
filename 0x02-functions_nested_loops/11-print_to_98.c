@@ -8,27 +8,19 @@
 void print_to_98(int n)
 {
 int i;
-for (i = n; i <= 98; i++)
+i = n;
+while( i != 98)
 {
-if(i >= 10)
-{
-int lastDigit, firstDigit;
-lastDigit = i % 10;
 
-while( i >= 10)
-i = i / 10;
+printf("%d", i);
 
-firstDigit = i;
-_putchar(firstDigit + '0');
-_putchar(lastDigit + '0');
-}
-else
-{
-_putchar(i + '0');
-}
 if (i == 98)
 continue;
 _putchar(',');
 _putchar(' ');
+if(i > 98)
+i--;
+else
+i++;
 }
 }
