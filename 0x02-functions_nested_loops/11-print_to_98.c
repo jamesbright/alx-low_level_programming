@@ -12,7 +12,7 @@ for (i = n; i <= 98; i++)
 {
 if(i >= 10)
 {
-int digit, lastDigit, firstDigit;
+int lastDigit, firstDigit;
 lastDigit = i % 10;
 
 while( i >= 10)
