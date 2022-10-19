@@ -9,10 +9,9 @@
 void times_table(void)
 {
 int num = 0, result, i, j;
-for(i = 0; i <= 9; ++i)
+for (i = 0; i <= 9; ++i)
 {
 
-printf("%s", "\n");
 for (j = 0; j <= 9; ++j)
 {
 
@@ -23,13 +22,13 @@ if (j == 9)
 continue;
 
 printf("%s", ", ");
-if(result < 10)
+if (result < 10)
 printf("%s", " ");
 
 }
+printf("%s", "\n");
+
 num++;
 }
-
-printf("%s", "\n");
 
 }
