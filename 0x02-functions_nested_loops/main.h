@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef 1_ALPHA_H
+#define 1_ALPHA_H
 #include <string.h>
 #include <stdio.h>
 
