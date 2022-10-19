@@ -1,16 +1,20 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
- * main - function to print alphabets
- * Description: this function uses the prototype of
- * a function.
- * Return: always return 0 at end of execution
+ * print_alphabet_x10 - prints the alphabets y
+ * Description: function prints the alphabet
+ * Return: always return 0 after execution
  */
-
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+unsigned int i;
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+for (i = 0; i < strlen(alphabet); ++i)
+{
+putchar(alphabet[i]);
 }
-
+putchar('\n');
+}
