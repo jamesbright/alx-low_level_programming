@@ -12,13 +12,13 @@ int _putchar(char c)
 //return (write(1, &c, 1));
 /* print '-' for negative numbers */
     if (c < 0) {
-        putchar('-');
+        return putchar('-');
         c = c * -1;
     }
   
     /* Print Zero */
     if (c == 0)
-        putchar('0');
+       return putchar('0');
   
     /* First remove the last digit of number and print 
     the remaining digits using recursion, then print
@@ -27,5 +27,5 @@ int _putchar(char c)
     if (c/10)
         _putchar(c/10);
   
-    putchar(c%10 + '0');
+   return putchar(c%10 + '0');
 }
