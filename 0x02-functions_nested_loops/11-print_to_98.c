@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include<math.h>
 #include "main.h"
 
 /**
@@ -15,8 +14,11 @@ if(i >= 10)
 {
 int digit, lastDigit, firstDigit;
 lastDigit = i % 10;
-digit    = (int)log10(i);    
-firstDigit = (int) (i / pow(10, digit));
+
+while( i >= 10)
+i = i / 10;
+
+firstDigit = i;
 _putchar(firstDigit + '0');
 _putchar(lastDigit + '0');
 }
