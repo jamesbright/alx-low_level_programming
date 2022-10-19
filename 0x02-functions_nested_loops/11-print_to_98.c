@@ -5,14 +5,15 @@
 /**
  * print_to_98 - prints a range of numbers
  * Description: the number printed goes from given range to 98
+ * @n: serves as starting point
  */
 void print_to_98(int n)
 {
 int i;
 i = n;
-if(i > 98)
+if (i > 98)
 {
-for(; i >= 98; i--)
+for (; i >= 98; i--)
 {
 printf("%d", i);
 
@@ -22,9 +23,9 @@ printf("%s", ", ");
 
 }
 }
-else if(i < 98)
+else if (i < 98)
 {
-for(; i <= 98; i++)
+for (; i <= 98; i++)
 {
 
 printf("%d", i);
@@ -34,7 +35,7 @@ continue;
 printf("%s",", ");
 }
 }
-else if(i == 98)
+else if (i == 98)
 printf("%d", i);
 
 printf("%s", "\n");
