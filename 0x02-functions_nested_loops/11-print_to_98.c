@@ -32,7 +32,7 @@ printf("%d", i);
 
 if (i == 98)
 continue;
-printf("%s",", ");
+printf("%s", ", ");
 }
 }
 else if (i == 98)
