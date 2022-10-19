@@ -12,9 +12,9 @@ for (j = 0; j <= 9; ++j)
 result = num * j;
 if (result >= 10)
 {
-   // Find last digit of a number
+   int lastDigit, firstDigit;
     lastDigit = result % 10;
-    //Find the first digit by dividing n by 10 until n greater then 10
+   
     while(result >= 10)
     {
         result = result / 10;
