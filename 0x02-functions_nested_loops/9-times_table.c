@@ -16,7 +16,7 @@ for (j = 0; j <= 9; j++)
 {
 
 result = num * j;
-printf("%4d", result);
+printf("%2.5d", result);
 
 if (j == 9)
 continue;
