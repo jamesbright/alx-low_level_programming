@@ -15,7 +15,7 @@ printf("%10d", result);
 if (j == 9)
 continue;
 printf("%10s", ", ");
-num++;
 }
+num++;
 }
 }
