@@ -10,14 +10,17 @@ for(i = 0; i <= 9; ++i)
 printf("%s", "\n");
 for (j = 0; j <= 9; ++j)
 {
-if(j >= 10)
-printf("%s", "\n");
 
 result = num * j;
 printf("%d", result);
+
 if (j == 9)
 continue;
+
 printf("%s", ", ");
+if(j >= 10)
+printf("%s", " ");
+
 }
 num++;
 }
