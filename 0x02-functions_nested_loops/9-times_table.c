@@ -16,15 +16,12 @@ for (j = 0; j <= 9; j++)
 {
 
 result = num * j;
-printf("%d", result);
+printf("%2d", result);
 
 if (j == 9)
 continue;
 
 printf("%2s", ",");
-if (result < 10)
-printf("%1s", "");
-
 }
 printf("%s", "\n");
 
