@@ -1,3 +1,5 @@
+#ifndef APHA1_H
+#define ALPHA1_H
 #include <string.h>
 #include <stdio.h>
 
@@ -16,4 +18,4 @@ putchar(alphabet[i]);
 }
 putchar('\n');
 }
-
+#endif
