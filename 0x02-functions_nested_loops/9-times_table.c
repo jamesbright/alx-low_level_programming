@@ -6,18 +6,18 @@ void times_table(void)
 int num = 0, result, i, j;
 for(i = 0; i <= 9; ++i)
 {
-putchar('\n');
+_putchar('\n');
 for (j = 0; j <= 9; ++j)
 {
 result = num * j;
-_putchar(result);
+_putchar(result + '0');
 
 if (j == 9)
 continue;
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 if (result > 9)
-putchar(' ');
+_putchar(' ');
 num++;
 }
 }
