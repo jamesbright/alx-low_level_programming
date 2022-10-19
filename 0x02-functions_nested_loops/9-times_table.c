@@ -21,9 +21,9 @@ printf("%d", result);
 if (j == 9)
 continue;
 
-printf("%s", ",  ");
+printf("%2s", ",");
 if (result < 10)
-printf("%s", " ");
+printf("%1s", "");
 
 }
 printf("%s", "\n");
