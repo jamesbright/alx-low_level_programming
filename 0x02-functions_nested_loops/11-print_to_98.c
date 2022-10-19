@@ -25,7 +25,7 @@ _putchar(' ');
 }
 else if(i < 98)
 {
-for(; i <= 98 i++)
+for(; i <= 98; i++)
 {
 
 printf("%d", i);
