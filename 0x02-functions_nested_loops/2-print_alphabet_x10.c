@@ -21,3 +21,4 @@ putchar(alphabet[i]);
 counter--;
 putchar('\n');
 }
+}
