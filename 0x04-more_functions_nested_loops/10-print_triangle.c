@@ -5,30 +5,30 @@
  * Description: function prints triangle in a certain order
  * @size: size of triangle to print
  */
-
 void print_triangle(int size)
 {
 int i, j;
 if (size < 1)
 {
-_putchar('\n');
+putchar('\n');
 }
 else
 {
-i = 0, j = 0;
-while (i < size)
+for (i = 0; i < size; i++)
 {
-while (j < size)
+for (j = 0; j < size; j++)
 {
 if (j < size - i - 1)
-_putchar(' ');
+{
+putchar(' ');
+}
 else
-_putchar('#');
-j++;
+{
+putchar('#');
+}
 }
 _putchar('\n');
-i++;
 }
-_putchar('\n');
 }
+putchar('\n');
 }
