@@ -1,9 +1,9 @@
 /**
  * mul - multiples two numbers
  * Description: function multiplies two numbers and returns the result
- * @c: an argument
+ * @a: an argument
  * @b: another argument
- * Return: return the product of @c * @b
+ * Return: return the product of @a * @b
  */
 
 int mul(int a, int b)
