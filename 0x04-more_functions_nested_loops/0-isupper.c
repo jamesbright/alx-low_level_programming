@@ -6,6 +6,7 @@
  * _isupper - checks if a character is upper case
  * Description: checks and returns true or false if a given character
  * is positive or negative
+ * @c: character to be checked
  * Return: true or false
  */
 
