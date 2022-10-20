@@ -20,15 +20,15 @@ for (j = 0; j < size; j++)
 {
 if (j < size - i - 1)
 {
-putchar(' ');
+_putchar(' ');
 }
 else
 {
-putchar('#');
+_putchar('#');
 }
 }
 _putchar('\n');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
