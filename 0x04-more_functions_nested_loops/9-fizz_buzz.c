@@ -14,20 +14,23 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-printf("%-3s ", "Fizz");
+printf("%s ", "Fizz");
 }
 else if (i % 5 == 0)
 {
-printf("%-3s", "Buzz");
+printf("%s", "Buzz");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%-3s", "FizzBuzz");
+printf("%s", "FizzBuzz");
 }
 else
 {
-printf("%-3d", i);
+printf("%d", i);
 }
+if (i == 100)
+continue;
+printf(" ");
 }
 printf("%s", "\n");
 return (0);
