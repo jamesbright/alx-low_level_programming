@@ -1,4 +1,6 @@
+#include <string.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * more_numbers - function to print a range of numbers
@@ -12,10 +14,8 @@ for (i = 1; i <= 10; i++)
 {
 for (j = 0; j <= 14; j++)
 {
-
-_putchar(j);
-
+printf("%d", j);
 }
-_putchar('\n');
+printf("%s", "\n");
 }
 }
