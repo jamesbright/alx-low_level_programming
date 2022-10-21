@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
+#include <stdio.h>
 /**
  * main - print the largest prime factor of a number
  * Description: this function finds and print the
