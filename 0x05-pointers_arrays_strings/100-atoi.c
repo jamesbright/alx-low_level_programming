@@ -10,9 +10,9 @@
 
 int _atoi(char *s)
 {
-int i = 0, sign = 1, num = 0;
-while (s[i] == ' ')
-{
+int i = 0, sign = 1, num = 0, result;
+while ((s[i] == ' ' || s[i] == '-' || s[i] == '+') && !(s[i + 1] >= '0' && s[i + 1] <= '9'))
+{ 
 i++;
 }
 if (s[i] == '-' || s[i] == '+')
@@ -30,5 +30,6 @@ return (INT_MIN);
 }
 num = 10 * num + (s[i++] - '0');
 }
-return (num * sign);
+result = num * sign;
+return (result);
 }
