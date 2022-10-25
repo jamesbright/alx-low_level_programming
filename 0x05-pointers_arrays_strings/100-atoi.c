@@ -11,13 +11,13 @@
 int _atoi(char *s)
 {
 int i = 0, sign = 1, num = 0, result;
-while (!(s[i + 1] >= '0' && s[i + 1] <= '9'))
+while (!(s[i] >= '0' && s[i] <= '9'))
 {
 i++;
 }
-if (s[i] == '-' || s[i] == '+')
+if (s[i -1] == '-' || s[i - 1] == '+')
 {
-sign = 1 - 2 * (s[i++] == '-');
+sign = 1 - 2 * (s[i -1] == '-');
 }
 while (s[i] >= '0' && s[i] <= '9')
 {
