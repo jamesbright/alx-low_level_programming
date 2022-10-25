@@ -13,9 +13,9 @@ if (len % 2)
 n = len / 2;
 else
 n = (len - 1) / 2;
-while (*(str + n - 1))
+while (*(str + n + 1))
 {
-_putchar(*(str + n - 1));
+_putchar(*(str + n + 1));
 n++;
 }
 _putchar('\n');
