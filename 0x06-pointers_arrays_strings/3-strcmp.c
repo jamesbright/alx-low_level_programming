@@ -2,7 +2,7 @@
 
 /**
  * _strcmp - compares two strings
- * Description: compares two strings and return a number less than, equal to 
+ * Description: compares two strings and return a number less than, equal to
  * . or greater than 0. if first string is less than, equal to, or greater
  * than second string respectively
  * @s1: first string
