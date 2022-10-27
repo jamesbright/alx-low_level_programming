@@ -18,6 +18,6 @@ s1++;
 s2++;
 }
 
-return (unsigned char)*s1 - (unsigned char)*s2;
+return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 
