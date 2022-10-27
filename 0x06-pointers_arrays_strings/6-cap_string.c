@@ -14,8 +14,8 @@ char *cap_string(char *str)
 int i, len = strlen(str);
 for (i = 0; i < len; i++)
 {
-if (!isalpha(str[i - 1]) && (str[i] >= 'a' && str[i] <= 'z'))
-str[i] = str[i] - 'a' + 'A';
+if (!isalpha(str[i - 1]) && islower(str[i]))
+str[i] = toupper(str[i]);
 }
 return (str);
 }
