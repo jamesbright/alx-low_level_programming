@@ -11,11 +11,12 @@
 
 char *cap_string(char *str)
 {
+char *result = str;
 int i, len = strlen(str);
 for (i = 0; i < len; i++)
 {
 if (!isalpha(str[i - 1]) && islower(str[i]))
 str[i] = toupper(str[i]);
 }
-return (str);
+return (result);
 }
