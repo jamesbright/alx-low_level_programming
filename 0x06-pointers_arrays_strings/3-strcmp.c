@@ -12,23 +12,19 @@
 
 int _strcmp(char *s1, char *s2)
 {
-int i = 0, s1_count = 0, s2_count = 0;
-while(s1[i] != '\0')
+int i;
+for (i = 0; *(s1 + i) && *(s2 + i); i++)
 {
-s1_count++;
-i++;
+if (s1[i] == s2[i])
+continue;
+else
+break;
 }
 
-while(s2[i] != '\0')
-{
-s2_count++;
-i++;
-}
-
-if (s1_count < s2_count)
-return (-15);
-else if (s1_count > s2_count)
-return (15);
-
+if (s1[i] == s2[i])
 return (0);
+else if (s1[i] < s2[i])
+return (-15);
+
+return (15);
 }
