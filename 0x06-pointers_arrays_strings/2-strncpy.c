@@ -5,7 +5,7 @@
  * Description: function copies a string from a src to a destination
  * @dest: destination string
  * @src: source string
- * @n size of src string
+ * @n: size of src string
  * Return: copied string
  */
 
