@@ -19,14 +19,6 @@ s1++;
 s2++;
 }
 
-if (*s1 == *s2)
-result = 0;
-
-else if (*s1 < *s2)
-result = -15;
-
-else
-result = 15;
-
-return (result);
+return (unsigned char)*s1 - (unsigned char)*s2;
 }
+
