@@ -12,7 +12,7 @@ char *leet(char *str)
 char l[] = {'a', 'e', 'o', 't', 'l'};
 char n[] = {4, 3, 0, 7, 1};
 int i;
-char *r = str;
+char *result = str;
 
 while (*str)
 {
@@ -23,5 +23,5 @@ if (*str == l[i] || *str == l[i] - 32)
 }
 str++;
 }
-return (r);
+return (result);
 }
