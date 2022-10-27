@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * _strcat - concatenates strings 
- * Description: concatenates strings by appending the src string to the 
+ * _strcat - concatenates strings
+ * Description: concatenates strings by appending the src string to the
  * end of the destination string
  * @dest: destination string
  * @src: src string
