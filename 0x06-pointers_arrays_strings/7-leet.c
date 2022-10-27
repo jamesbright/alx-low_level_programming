@@ -9,10 +9,10 @@
 
 char *leet(char *str)
 {
-char l[] = {'a','e','o','t','l'};
-char n[] = {4,3,0,7,1};
+char l[] = {'a', 'e', 'o', 't', 'l'};
+char n[] = {4, 3, 0, 7, 1};
 int i;
-while(*str)
+while (*str)
 {
 for (i = 0; i < 5; i++)
 {
