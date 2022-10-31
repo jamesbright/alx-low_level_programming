@@ -18,5 +18,5 @@ l_sum = l_sum +  a[(size + 1) * i];
 r_sum = r_sum + a[(size - 1) * j];
 }
 printf("%d, ", l_sum);
-printf("%d, ", r_sum);
+printf("%d", r_sum);
 }
