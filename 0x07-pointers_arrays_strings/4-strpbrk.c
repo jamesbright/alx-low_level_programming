@@ -14,7 +14,7 @@ if (s == NULL || accept == NULL)
 return (NULL);
 while (*s)
 {
-if (strchr(accept, *s)
+if (strchr(accept, *s))
 return (s);
 else
 s++;
