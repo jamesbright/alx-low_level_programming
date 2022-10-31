@@ -8,7 +8,7 @@
  * @accept: string to find
  * Return: number of bytes
  */
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 unsigned int len = 0;
 if ((s == NULL) || (accept == NULL))
