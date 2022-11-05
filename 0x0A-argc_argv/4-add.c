@@ -12,20 +12,20 @@
 
 int main(int argc, char *argv[])
 {
-
-if (argc < 2)
+int i, result = 0;
+if (argc < 1)
 {
 printf("%d\n", 0);
 }
-else if (!(atoi(argv[1])) || !(atoi(argv[2])))
+for (int i = 0; i < argc; i++)
+{
+if (!(atoi(argv[i])))
 {
 printf("%s\n", "Error");
+return (1);
 }
-else
-{
-int a = atoi(argv[1]), b = atoi(argv[2]);
-int result = a + b;
+result += argv[i];
+}
 printf("%d\n", result);
-}
 return (0);
 }
