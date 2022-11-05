@@ -17,7 +17,7 @@ int a = atoi(argv[1]), b = atoi(argv[2]);
 int result = a * b;
 printf("%d\n", result);
 }
-else if (argc < 3)
+else if (argc < 2)
 {
 printf("%s\n", "Error");
 return (1);
