@@ -17,7 +17,7 @@ if (argc < 1)
 {
 printf("%d\n", 0);
 }
-for (int i = 0; i < argc; i++)
+for (i = 0; i < argc; i++)
 {
 if (!(atoi(argv[i])))
 {
