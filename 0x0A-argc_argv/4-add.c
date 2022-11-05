@@ -13,13 +13,13 @@
 int main(int argc, char *argv[])
 {
 int i, result = 0;
-if (argc < 1)
+if (argc < 2)
 {
 printf("%d\n", 0);
 }
 for (i = 0; i < argc; i++)
 {
-if (!(atoi(argv[i])))
+if (!atoi(argv[i]))
 {
 printf("%s\n", "Error");
 return (1);
