@@ -17,6 +17,8 @@ if (argc < 2)
 {
 printf("%d\n", 0);
 }
+else
+{
 for (i = 0; i < argc; i++)
 {
 if (!atoi(argv[i]))
@@ -27,5 +29,6 @@ return (1);
 result += atoi(argv[i]);
 }
 printf("%d\n", result);
+}
 return (0);
 }
