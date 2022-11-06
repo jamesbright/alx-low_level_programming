@@ -20,7 +20,7 @@ return (0);
 }
 else
 {
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 s = argv[i];
 if ((s[i] < '0' || s[i] > '9') && s[i] != '\0')
