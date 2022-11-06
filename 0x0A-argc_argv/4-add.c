@@ -21,7 +21,7 @@ else
 {
 for (i = 0; i < argc; i++)
 {
-if (!atoi(argv[i]))
+if ((argv[i] < '0' || argv[i] > '9') && argv[i] != '\0')
 {
 printf("%s\n", "Error");
 return (1);
