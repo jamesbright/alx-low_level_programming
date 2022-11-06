@@ -28,7 +28,7 @@ if (!atoi(argv[i]))
 printf("%s\n", "Error");
 return (1);
 }
-result += atoi(argv[i]);
+result = result + atoi(argv[i]);
 }
 printf("%d\n", result);
 }
