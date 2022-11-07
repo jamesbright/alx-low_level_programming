@@ -18,7 +18,11 @@ if (width == 0 || height == 0)
 return (NULL);
 
 array_pointer = malloc(height * sizeof(*array_pointer));
-
+if (array_pointer == NULL)
+{
+free(array_pointer);
+return (NULL);
+}
 for (i = 0; i < height; i++)
 {
 array_pointer[i] = malloc(width * sizeof(**array_pointer));
