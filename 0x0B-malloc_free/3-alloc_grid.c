@@ -32,7 +32,7 @@ return (NULL);
 
 for (j = 0; j < width; j++)
 {
-array_elem[i][j] = 0;
+array_pointer[i][j] = 0;
 }
 }
 return (array_pointer);
