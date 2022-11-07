@@ -16,11 +16,11 @@ static char *s;
 char *s_offset;
 
 if (str == NULL)
-return (NULL);
+return ((char *)NULL);
 
 s = (char *)malloc(sizeof(char) * str_size + 1);
 if (s == NULL)
-return (NULL);
+return ((char *)NULL);
 
 s_offset = s;
 
