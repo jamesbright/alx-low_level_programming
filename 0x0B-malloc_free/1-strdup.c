@@ -15,7 +15,7 @@ int str_size = strlen(str);
 char *s = NULL;
 char *s_offset = NULL;
 
-if (str == "")
+if (*str == NULL)
 return (NULL);
 
 s = (char *)malloc(sizeof(char) * str_size + 1);
