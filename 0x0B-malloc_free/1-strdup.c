@@ -29,6 +29,6 @@ s_offset++;
 str++;
 }
 *s_offset = '\0';
-return (s);
+return (s_offset);
 
 }
