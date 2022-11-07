@@ -19,7 +19,7 @@ s = (char *)malloc(sizeof(char) * str_size + 1);
 
 if (s != NULL)
 {
-*s_offset = *s;
+s_offset = s;
 while (*str)
 {
 *s_offset = *str;
