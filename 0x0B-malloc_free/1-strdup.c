@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _strdup - copies and returns a pointer to a new string
- * Description: memory for the new string is obtained with malloc.
+ * Description: memory for the new string is obtained with malloci.
  * and can be freed with free.
  * @str: string to be copied
  * Return: returns a pointer or NULL
@@ -11,10 +11,11 @@
 
 char *_strdup(char *str)
 {
+int str_size = strlen(str);
+
 if (str == NULL)
 return (NULL);
 
-int str_size = strlen(str);
 char *s;
 char *s_offset;
 s = malloc(sizeof(char) * str_size + 1);
