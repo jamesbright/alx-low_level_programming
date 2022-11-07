@@ -16,9 +16,11 @@ static char *s;
 char *s_offset;
 
 if (str == NULL)
-return ((char *)NULL);
+return (NULL);
 
 s = (char *)malloc(sizeof(char) * str_size + 1);
+if (s == NULL)
+return (NULL);
 
 s_offset = s;
 
@@ -29,6 +31,6 @@ s_offset++;
 str++;
 }
 *s_offset = '\0';
-return (s_offset);
+return (s);
 
 }
