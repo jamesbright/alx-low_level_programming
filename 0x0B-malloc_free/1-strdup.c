@@ -12,18 +12,14 @@
 char *_strdup(char *str)
 {
 int str_size = strlen(str);
-static char *s;
+static char *s = NULL;
 char *s_offset;
 
-if (str == NULL)
-return ((char *)NULL);
-
 s = (char *)malloc(sizeof(char) * str_size + 1);
-if (s == NULL)
-return ((char *)NULL);
 
-s_offset = s;
-
+if (s != NULL)
+{
+*s_offset = *s;
 while (*str)
 {
 *s_offset = *str;
@@ -31,6 +27,7 @@ s_offset++;
 str++;
 }
 *s_offset = '\0';
+}
 return (s);
 
 }
