@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * alloc_grid - allocates memory to array
  * Description: allocates and returns a pointer to a 2 dimensional array
@@ -13,6 +13,7 @@ int **alloc_grid(int width, int height)
 {
 int **array_pointer;
 int i, j;
+
 if (width == 0 || height == 0)
 return (NULL);
 
