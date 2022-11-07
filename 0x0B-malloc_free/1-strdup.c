@@ -28,6 +28,9 @@ str++;
 }
 *s_offset = '\0';
 }
+else
+return (NULL);
+
 return (s);
 
 }
