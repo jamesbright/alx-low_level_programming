@@ -15,6 +15,9 @@ int str_size = strlen(str);
 char *s = NULL;
 char *s_offset = NULL;
 
+if (str == NULL)
+return (NULL);
+
 s = (char *)malloc(sizeof(char) * str_size + 1);
 
 if (s != NULL)
@@ -28,8 +31,6 @@ str++;
 }
 *s_offset = '\0';
 }
-else
-return (NULL);
 
 return (s);
 
