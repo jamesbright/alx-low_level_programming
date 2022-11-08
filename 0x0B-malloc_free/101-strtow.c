@@ -49,28 +49,51 @@ free(string);
 
 char **strtow(char *str)
 {
-int i, j = 0, k = 0, str_len = word_count(str);
-char **str_words = NULL;
+int i = 0, j = 0, k = 0, str_len = 0;
+char **str_words, *found;
 
-if (str == 0 || str == NULL)
+if (str == 0 || *str == NULL)
 return (NULL);
 
-str_words = malloc(str_len + 1 * sizeof(char *));
-if (str_words == NULL)
+i = word_count(str);
+
+if (i == 0)
 return (NULL);
 
-for (i = 0; i <= str_len; i++)
+str_words = malloc((i + 1) * sizeof(char *));
+if (str_words == 0)
+return (NULL);
+
+for (; *str != '\0' && j < i;)
 {
-if (str[i] == ' ' || str[i] == '\0')
-{
-str_words[k][j] = '\0';
-k++;
-j = 0;
-}
+if (*str == ' ')
+str++;
+
 else
 {
-str_words[k][j] = str[i];
+found = str;
+for (; *str != ' ' && *str != '\0';)
+{
+str_len++;
+str++;
+}
+str_words[j] = malloc((str_len + 1) * sizeof(char));
+if (str_words[j] == 0)
+{
+free_memory(str_words, j);
+return (NULL);
+}
+while (*found != ' '  && *found != '\0')
+{
+str_words[j][k] = *found;
+found++;
+k++;
+}
+str_words[j][k] = '\0';
 j++;
+k = 0;
+str_len = 0;
+str++;
 }
 }
 return (str_words);
