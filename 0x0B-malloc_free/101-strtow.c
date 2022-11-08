@@ -52,7 +52,7 @@ char **strtow(char *str)
 int i = 0, j = 0, k = 0, str_len = 0;
 char **str_words, *found;
 
-if (str == 0 || *str == NULL)
+if (str == 0 || *str == 0)
 return (NULL);
 
 i = word_count(str);
