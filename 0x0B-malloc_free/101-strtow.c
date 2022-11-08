@@ -13,7 +13,7 @@ char **strtow(char *str)
 {
 int i, j = 0, k = 0, str_len = strlen(str);
 char **str_words = NULL;
-str_words = malloc(str_len * sizeof(char))
+str_words = malloc(str_len * sizeof(char));
 if (str_words == NULL)
 return (NULL);
 
