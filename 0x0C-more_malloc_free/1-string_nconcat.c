@@ -30,7 +30,7 @@ for (j = 0; s2[j] != '\0'; j++)
 }
 else
 {
-for (j = n; j <= n; j++)
+for (j = n; j < n; j++)
 ;
 }
 
