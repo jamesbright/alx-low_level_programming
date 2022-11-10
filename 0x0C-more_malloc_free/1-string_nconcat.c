@@ -26,7 +26,7 @@ for (i = 0; s1[i] != '\0'; i++)
 for (j = 0; s2[j] != '\0'; j++)
 ;
 
-if (n >= strlen(s2))
+if (!(n >= strlen(s2)))
 j = n - 1;
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
