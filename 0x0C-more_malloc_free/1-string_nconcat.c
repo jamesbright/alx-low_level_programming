@@ -44,7 +44,7 @@ str[k] = s1[k];
 else
 str[k] = s2[m++];
 }
-
+str[k] = '\0';
 return (str);
 }
 
