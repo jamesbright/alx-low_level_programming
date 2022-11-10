@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array
- * desecription: function allocates memory for an array of size 
+ * desecription: function allocates memory for an array of size
  * @nmemb: elements of the array
  * @size: size of the array
  * Return: a pointer to the newly allocated memory
