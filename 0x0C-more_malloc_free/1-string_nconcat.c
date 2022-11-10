@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * string_concat - concatenates two strings
+ * string_nconcat - concatenates two strings
  * Description: concatenates two strings and returns a pointer to it
  * @s1: string 1
  * @s2: string 2
@@ -14,7 +14,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *str;
-int i, j, k, m;
+unsigned int i, j, k, m;
 
 if (s1 == NULL)
 s1 = "";
@@ -30,7 +30,7 @@ for (j = 0; s2[j] != '\0'; j++)
 }
 else
 {
-for (j = n; s2[j] != '\0'; j++)
+for (j = 0; j < n; j++)
 ;
 }
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
