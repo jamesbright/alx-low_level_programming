@@ -23,17 +23,14 @@ s2 = "";
 
 for (i = 0; s1[i] != '\0'; i++)
 ;
-if (n >= (strlen(s2) - 1))
-{
 for (j = 0; s2[j] != '\0'; j++)
 ;
-}
-else
-{
-for (j = 0; j < n; j++)
-;
-}
+
+if (n >= strlen(s2))
+j = n - 1;
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
+str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
+
 if (str == NULL)
 return (NULL);
 
@@ -44,7 +41,6 @@ str[k] = s1[k];
 else
 str[k] = s2[m++];
 }
-str[k] = '\0';
 return (str);
 }
 
