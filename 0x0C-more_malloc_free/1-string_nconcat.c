@@ -30,13 +30,11 @@ for (j = 0; s2[j] != '\0'; j++)
 }
 else
 {
-for (j = 0; j < n; j++)
+for (j = 0; j <= n; j++)
 ;
 }
 
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
-str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
-
 if (str == NULL)
 return (NULL);
 
