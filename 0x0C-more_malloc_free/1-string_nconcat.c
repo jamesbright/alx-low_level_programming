@@ -24,21 +24,20 @@ s2 = "";
 for (i = 0; s1[i] != '\0'; i++)
 ;
 
-for (j = 0; s2[j] != '\0'; j++)
-;
+k = (i + n) * sizeof(*str);
+str = malloc(k + 1);
 
-
-str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
 if (str == NULL)
 return (NULL);
 
-for (k = 0, m = 0; k < (i + j + 1); k++)
-{
-if (k < i)
-str[k] = s1[k];
-else
-str[k] = s2[m++];
-}
+
+for (m = 0; m < k && s1[m] != '\0'; m++)
+str[m] = s1[m];
+
+for (j = 0; m < k && s2[j] != '\0'; m++; j++)
+str[m] = s2[j];
+
+str[m] = '\0';
 return (str);
 }
 
