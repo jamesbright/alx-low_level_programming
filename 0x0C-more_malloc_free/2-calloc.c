@@ -8,24 +8,21 @@
  * @size: size of the array
  * Return: a pointer to the newly allocated memory
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int n, i;
-char *str;
+char *ar;
+unsigned int ar_size, i;
+
 if (nmemb == 0 || size == 0)
 return (NULL);
-
-n = nmemb * size;
-str =  malloc(n + 1);
-
-if (str == NULL)
+ar_size = nmemb * size;
+ar = malloc(ar_size);
+if (ar == NULL)
 return (NULL);
-
-while (i < n)
+while (i < ar_size)
 {
-str[i] = 0;
+ar[i] = 0;
 i++;
 }
-return (str);
+return (ar);
 }
