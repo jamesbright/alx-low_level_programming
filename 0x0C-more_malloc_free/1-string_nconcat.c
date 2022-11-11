@@ -23,16 +23,10 @@ s2 = "";
 
 for (i = 0; s1[i] != '\0'; i++)
 ;
-if (n >= strlen(s2))
-{
+
 for (j = 0; s2[j] != '\0'; j++)
 ;
-}
-else
-{
-for (j = 0; j <= n; j++)
-;
-}
+
 
 str = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
 if (str == NULL)
