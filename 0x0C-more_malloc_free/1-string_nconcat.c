@@ -34,7 +34,7 @@ return (NULL);
 for (m = 0; m < k && s1[m] != '\0'; m++)
 str[m] = s1[m];
 
-for (j = 0; m < k && s2[j] != '\0'; m++; j++)
+for (j = 0; m < k && s2[j] != '\0'; m++, j++)
 str[m] = s2[j];
 
 str[m] = '\0';
