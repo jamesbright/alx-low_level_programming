@@ -16,8 +16,6 @@ unsigned int i;
 if (new_size == old_size)
 return (ptr);
 
-if (new_size > old_size)
-return (NULL);
 if (ptr == NULL)
 {
 ptr = malloc(new_size);
