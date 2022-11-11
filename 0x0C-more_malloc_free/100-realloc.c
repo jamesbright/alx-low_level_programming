@@ -3,7 +3,7 @@
 /**
  * _realloc - reallocates memory
  * Description: reallocates memory from old size to new size
- * ptr: pointer to old allocated memory
+ * @ptr: pointer to old allocated memory
  * @old_size: old size
  * @new_size: new size
  * Return: pointer
@@ -16,6 +16,8 @@ unsigned int i;
 if (new_size == old_size)
 return (ptr);
 
+if (new_size > old_size)
+return (NULL);
 if (ptr == NULL)
 {
 ptr = malloc(new_size);
@@ -33,7 +35,7 @@ return (NULL);
 
 src = ptr;
 
-for (i = 0; i < new_size && i < old_size; i++);
+for (i = 0; i < new_size && i < old_size; i++)
 dest[i] = src[i];
 free(ptr);
 
