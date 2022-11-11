@@ -16,7 +16,7 @@ unsigned int ar_size, i;
 if (nmemb == 0 || size == 0)
 return (NULL);
 ar_size = nmemb * size;
-ar = malloc(ar_size);
+ar = (char *)malloc(ar_size);
 if (ar == NULL)
 return (NULL);
 while (i < ar_size)
