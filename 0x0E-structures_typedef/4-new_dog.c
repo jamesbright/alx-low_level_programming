@@ -30,7 +30,6 @@ return (NULL);
 }
 
 ptr->name = name;
-ptr->age = age;
 ptr->owner = owner;
 return (ptr);
 }
