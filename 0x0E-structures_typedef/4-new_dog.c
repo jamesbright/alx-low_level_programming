@@ -17,25 +17,19 @@ return (NULL);
 
 if (name == NULL)
 {
-free(age);
-free(owner);
-return (NULL);
-}
-else if (age == NULL)
-{
-free(name);
+free(ptr);
 free(owner);
 return (NULL);
 }
 else if (owner == NULL)
 {
 free(name);
-free(age);
+free(ptr);
 return (NULL);
 }
 
-p->name = name;
-p->age = age;
-p->owner = owner;
-return (p);
+ptr->name = name;
+ptr->age = age;
+ptr->owner = owner;
+return (ptr);
 }
