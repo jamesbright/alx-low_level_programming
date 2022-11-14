@@ -6,6 +6,7 @@
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
+ * Return: pointer
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -21,10 +22,10 @@ free(ptr);
 free(owner);
 return (NULL);
 }
-else if (owner == NULL)
+if (owner == NULL)
 {
-free(name);
 free(ptr);
+free(name);
 return (NULL);
 }
 
