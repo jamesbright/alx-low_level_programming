@@ -23,7 +23,7 @@ if (cmp(array[i]) == 0)
 continue;
 else
 {
-return (i)
+return (i);
 }
 }
 }
