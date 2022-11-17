@@ -1,8 +1,9 @@
 #include "function_pointers.h"
+#include <stdlib.h>
 
 /**
  * print_name - Print a name from pointer function
- * @name: char string 
+ * @name: char string
  * @f: pointer function that takes a string argument
  */
 
