@@ -17,10 +17,13 @@ return (-1);
 
 for (i = 0; i < size; i++)
 {
-if (cmp(*array[i] != 0)
-index = i;
+if (cmp(array[i]) == 0)
+continue;
 else
+{
+index = i;
 break;
+}
 }
 return (index);
 }
