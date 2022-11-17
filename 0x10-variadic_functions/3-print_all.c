@@ -37,7 +37,7 @@ printf("%f", (float) va_arg(list, double));
 }
 
 /**
- * printf_string - printfs a string
+ * print_string - printfs a string
  *
  * @list: va_list to print from
  *
