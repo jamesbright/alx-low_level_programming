@@ -18,3 +18,4 @@ action(*array++);
 }
 while (size--);
 }
+}
