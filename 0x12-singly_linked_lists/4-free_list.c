@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * free_list - frees a linked list
@@ -8,5 +8,12 @@
 
 void free_list(list_t *head)
 {
-free(head);
+list_t *holder;
+while (head)
+{
+holder = head;
+head = head->next;
+free(holder->str);
+free(holder);
+}
 }
