@@ -13,7 +13,7 @@ list_t *new;
 new = malloc(sizeof(list_t));
 if (new == NULL)
 return (NULL);
-new->str =strdup(str);
+new->str = strdup(str);
 new->len = strlen(str);
 new->next = *head;
 *head = new;
