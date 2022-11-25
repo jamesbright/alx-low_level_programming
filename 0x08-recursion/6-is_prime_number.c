@@ -21,7 +21,7 @@ return (check_prime(n, i - 1));
 /**
  * is_prime_number - returns prime number
  * @n: number to check
- * Return 1 if n is prime
+ * Return: 1 if n is prime
  */
 
 
