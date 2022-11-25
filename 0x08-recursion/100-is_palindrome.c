@@ -1,21 +1,5 @@
 #include "main.h"
-/**
- * is_palindrome - checks if a string is palindrome
- * @s: string to check
- * Return: 1 if string is palindrome
- */
 
-
-int is_palindrome(char *s)
-{
-int len;
-
-len = _strlen(s);
-
-if (len == 0)
-return (1);
-return (palindrome(s, 0, len - 1));
-}
 
 /**
  * _strlen - finds the length count of string
@@ -45,4 +29,23 @@ return (0);
 if (st <= end || st < end + 1)
 return (palindrome(str, st + 1, end - 1));
 return (1);
+}
+
+
+/**
+ * is_palindrome - checks if a string is palindrome
+ * @s: string to check
+ * Return: 1 if string is palindrome
+ */
+
+
+int is_palindrome(char *s)
+{
+int len;
+
+len = _strlen(s);
+
+if (len == 0)
+return (1);
+return (palindrome(s, 0, len - 1));
 }
