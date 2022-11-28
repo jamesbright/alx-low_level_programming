@@ -14,7 +14,7 @@ listint_t *nth_node;
 if (head == NULL)
 return (NULL);
 
-while (head->next != NULL)
+while (head != NULL)
 {
 if (i == index)
 {
