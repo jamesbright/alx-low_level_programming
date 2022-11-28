@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * sum_listint - sums all the data of a list
@@ -16,6 +16,7 @@ return (0);
 while (head != NULL)
 {
 sum = sum + head->n;
+head = head->next;
 }
 return (sum);
 }
