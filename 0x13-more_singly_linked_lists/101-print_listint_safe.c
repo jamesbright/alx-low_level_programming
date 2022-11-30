@@ -26,30 +26,30 @@ return (NULL);
 }
 
 /**
- * print_listint_safe - prints a linked list
- * @head: head of the list
- * Return: number of nodes in the list
+ * print_listint_safe - prints a linked list, even if it
+ * has a loop
+ *
+ * @head: head of list to print
+ *
+ * Return: number of nodes printed
  */
-
 size_t print_listint_safe(const listint_t *head)
 {
-size_t nodes_size = 0;
+size_t len = 0;
 int loop;
-listint_t *l_node;
+listint_t *loopnode;
 
-l_node = find_listint_loop_pl((listint_t *) head);
+loopnode = find_listint_loop_pl((listint_t *) head);
 
-for (nodes_size = 0, loop = 1; (head != l_node || loop) && head != NULL;
-nodes_size++);
+for (len = 0, loop = 1; (head != loopnode || loop) && head != NULL; len++)
 {
 printf("[%p] %d\n", (void *) head, head->n);
-if (head == l_node)
+if (head == loopnode)
 loop = 0;
 head = head->next;
 }
 
-if (l_node != NULL)
+if (loopnode != NULL)
 printf("-> [%p] %d\n", (void *) head, head->n);
-
-return (nodes_size);
+return (len);
 }
