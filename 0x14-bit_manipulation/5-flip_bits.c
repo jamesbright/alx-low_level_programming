@@ -18,6 +18,6 @@ m = m >> 1;
 n = n >> 1;
 }
 
-return (count);
+return (counter);
 
 }
