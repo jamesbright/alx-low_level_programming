@@ -27,7 +27,7 @@ holder = holder >> 1;
 for (counter = i - 1; counter >= 0; counter--)
 {
 j = n >> counter;
-if(j & 1)
+if (j & 1)
 printf("1");
 else
 printf("0");
