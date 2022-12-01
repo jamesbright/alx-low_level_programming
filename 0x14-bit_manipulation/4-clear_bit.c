@@ -15,7 +15,7 @@ if (n == NULL)
 return (-1);
 
 bit = 1 << index;
-if (bit == NULL)
+if (!bit)
 return (-1);
 
 if ((bit | *n) == *n)
