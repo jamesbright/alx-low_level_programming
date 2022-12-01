@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_endianne8ss - find the endianess
+ * get_endianness - find the endianess
  * Return: 0
  */
 int get_endianness(void)
