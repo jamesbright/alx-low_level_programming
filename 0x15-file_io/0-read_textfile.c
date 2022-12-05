@@ -24,7 +24,7 @@ return (0);
 
 buf = malloc(sizeof(char) * letters + 1);
 
-if (buf == -1)
+if (buf == NULL)
 return (0);
 
 rd = read(fd, buf, letters);
