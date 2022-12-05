@@ -25,17 +25,19 @@ return (0);
 buf = malloc(letters);
 
 if (buf == NULL)
+{
+free(buf);
 return (0);
+}
 
 rd = read(fd, buf, letters);
 if (rd == -1)
 return (0);
 
-wr = write(1, buf, rd);
+wr = write(STDOUT_FILENO, buf, rd);
 if (wr == -1)
 return (0);
 
 close(fd);
-free(buf);
 return (wr);
 }
