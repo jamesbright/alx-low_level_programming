@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - function that creates a file.
+ * append_text_to_file - function that creates a file.
  * @filename: name of file
  * @text_content: content of file
  * Return: 1 on success, -1 on failure
