@@ -4,7 +4,7 @@
  * read_textfile - reads a text file prints it to
  * stdout
  * @filename: name of file to read
- * letters: number of letters it should read
+ * @letters: number of letters it should read
  * Return: no of letters it could read or print or 0
  */
 
@@ -22,7 +22,7 @@ fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 
-buf = malloc(sizeof(char) * letters + 1);
+buf = malloc(letters);
 
 if (buf == NULL)
 return (0);
@@ -30,8 +30,6 @@ return (0);
 rd = read(fd, buf, letters);
 if (rd == -1)
 return (0);
-
-buf[letters] = '\0';
 
 wr = write(1, buf, rd);
 if (wr == -1)
