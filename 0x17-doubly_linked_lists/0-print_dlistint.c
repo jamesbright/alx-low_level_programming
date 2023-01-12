@@ -3,7 +3,7 @@
 /**
  * print_dlistint - prints all elements of a list
  * @h: list element
- * @Return: number of elements
+ * Return: number of elements
  */
 
 
