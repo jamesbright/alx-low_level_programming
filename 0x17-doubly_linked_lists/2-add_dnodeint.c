@@ -3,7 +3,8 @@
 /**
  * add_dnodeint - add a node at the begining of a
  * linked list.
- * @h: linked list
+ * @head: linked list
+ * @n: new node value
  * Return: new list with node added
  */
 
