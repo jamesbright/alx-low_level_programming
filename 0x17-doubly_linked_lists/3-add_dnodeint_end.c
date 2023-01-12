@@ -4,6 +4,7 @@
  * add_dnodeint_end - add new node at end of list
  * @head: linked list
  * @n: new node value
+ * Return: updated list
  */
 
 
