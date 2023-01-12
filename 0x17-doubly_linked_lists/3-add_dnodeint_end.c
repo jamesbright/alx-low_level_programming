@@ -17,7 +17,7 @@ return (NULL);
 
 if (temp)
 {
-while (temp && temp-next)
+while (temp && temp->next)
 {
 new_node->prev = temp;
 temp->next = new_node;
