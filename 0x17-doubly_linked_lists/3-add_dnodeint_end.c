@@ -17,16 +17,20 @@ return (NULL);
 
 if (temp)
 {
+while (temp && temp-next)
+{
 new_node->prev = temp;
 temp->next = new_node;
+temp = temp->next;
+}
 }
 else
 {
 new_node->prev = NULL;
-}
 new_node->next = NULL;
+}
 new_node->n = n;
 *head = temp;
 
-return (temp);
+return (new_node);
 }
