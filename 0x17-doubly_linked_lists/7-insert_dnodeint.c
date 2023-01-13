@@ -21,7 +21,7 @@ new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
 
-if (idx > 1 || ptr == NULL)
+if (ptr == NULL)
 return (NULL);
 
 new_node->n = n;
