@@ -8,7 +8,7 @@
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-unsigned int i = 0;
+unsigned int i, count = 0;
 dlistint_t *ptr = *head, *del_node = *head;
 
 if (!(*head))
@@ -24,13 +24,14 @@ if (*head)
 }
 return (1);
 }
-while (i < index - 1 && ptr)
+i = index - 1;
+while (count != i  && ptr)
 {
-i++;
+count++;
 ptr = ptr->next;
 }
 
-if (i == index && ptr)
+if (i == count && ptr)
 {
 
 del_node = ptr->next;
