@@ -31,9 +31,6 @@ index = idx - 1;
 
 res = perform_insert(ptr, new_node, index, count);
 return (res);
-
-free(new_node);
-return (NULL);
 }
 
 /**
@@ -45,7 +42,8 @@ return (NULL);
  * Return: inserted node
  */
 
-dlistint_t *perform_insert(dlistint_t *ptr, dlistint_t *new_node, unsigned int index, unsigned int count)
+dlistint_t *perform_insert(dlistint_t *ptr, dlistint_t *new_node,
+unsigned int index, unsigned int count)
 {
 
 while (count != index && ptr)
@@ -62,7 +60,8 @@ new_node->next = ptr->next;
 if (ptr->next)
 ptr->next->prev = new_node;
 ptr->next = new_node;
-
-}
 return (new_node);
+}
+free(new_node);
+return (NULL);
 }
