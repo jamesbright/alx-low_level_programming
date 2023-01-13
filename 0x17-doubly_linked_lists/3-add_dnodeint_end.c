@@ -15,22 +15,22 @@ dlistint_t *new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
 
-if (temp)
+new_node->n = n;
+new_node->next = NULL;
+if (*head == NULL)
 {
-while (temp)
-{
-temp = temp->next;
-}
-new_node->prev = temp;
-temp->next = new_node;
-*head = temp;
+new_node->prev = NULL;
+*head = new_node;
+
 }
 else
 {
-new_node->prev = NULL;
+while (temp && temp->next)
+temp = temp->next;
+
+temp->next = new_node;
+new_node->prev = temp;
 }
-new_node->next = NULL;
-new_node->n = n;
 
 return (new_node);
 }
