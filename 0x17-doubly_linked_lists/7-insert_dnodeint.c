@@ -16,15 +16,16 @@ new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
 
-while (*h && i <= idx)
+while (h && i <= idx)
 {
 if (i == idx)
 {
-new_node->next = *h->next;
-new_node->prev = *h;
+new_node->next = h->next;
+new_node->prev = h;
+new_node->n = n;
 break;
 }
-*h = *h->next;
+h = h->next;
 i = i + 1;
 }
 return (new_node);
