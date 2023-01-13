@@ -9,33 +9,32 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 unsigned int i = 0;
-dlistint_t *bfr_node = *head, *tmp_node = *head;
+dlistint_t *ptr = *head;
 
-if (index == 0 && *head)
+if (head == NULL || *head == NULL)
+return (-1);
+
+if (index == 0)
 {
-if ((*head)->next)
-{
-*head = (*head)->next;
-(*head)->prev = NULL;
-free(tmp_node);
-}
-else
-*head = NULL;
+ptr = ptr->next;
+ptr->prev = NULL;
+*head = ptr;
 return (1);
 }
-while (i < index - 1 && bfr_node)
+while (i < index - 1 && ptr)
 {
-bfr_node = bfr_node->next;
 i++;
+ptr = ptr->next;
 }
-if (bfr_node)
+
+if (i == index && ptr)
 {
-tmp_node = bfr_node->next;
-if (tmp_node->next)
-tmp_node->next->prev = bfr_node;
-bfr_node->next = tmp_node->next;
-free(tmp_node);
+
+ptr->next->prev = ptr->prev;
+ptr->next = ptr->next->next;
+*head = ptr;
 return (1);
 }
+
 return (-1);
 }
