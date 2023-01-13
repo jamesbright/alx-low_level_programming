@@ -16,14 +16,15 @@ dlistint_t *ptr = *h;
 new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
-
+new_node->n = n;
 while (ptr && i <= idx)
 {
-if (i == idx)
+if (i == idx && ptr->next != NULL)
 {
+ptr->next->prev = new_node;
 new_node->next = ptr->next;
 new_node->prev = ptr;
-new_node->n = n;
+ptr = new_node;
 break;
 }
 ptr = ptr->next;
