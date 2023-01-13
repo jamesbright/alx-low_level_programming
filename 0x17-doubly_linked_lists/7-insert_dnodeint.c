@@ -21,19 +21,25 @@ return (add_dnodeint(h, n));
 new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
+
+if (idx > 1 || ptr == NULL)
+return (NULL);
+
 new_node->n = n;
-while (ptr && i <= idx)
+
+while (idx > 1 && ptr && ptr->next)
 {
-if (i == idx && ptr->next != NULL)
-{
-ptr->next->prev = new_node;
-new_node->next = ptr->next;
-new_node->prev = ptr;
-ptr = new_node;
-break;
-}
-i = i + 1;
 ptr = ptr->next;
+idx--;
 }
+
+
+if (ptr->next != NULL)
+ptr->next->prev = new_node;
+new_node->prev = ptr;
+new_node->next = ptr->next;
+ptr->next = new_node;
+
+
 return (new_node);
 }
