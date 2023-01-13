@@ -4,14 +4,15 @@
  * delete_dnodeint_at_index - deletes node at an index
  * @head: linked list to remove from
  * @index: index of the node
- * Return: inserted node at index
+ * Return: 1 on success, -1 on failure
  */
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
+int flag = -1;
 dlistint_t *ptr = *head;
-if (h == NULL)
-return (NULL);
+
+
 if (index == 0)
 {
 ptr = ptr->next;
@@ -19,17 +20,19 @@ ptr->prev = NULL;
 }
 
 
-while (idx > 1 && ptr && ptr->next)
+while (index > 1 && ptr && ptr->next)
 {
 ptr = ptr->next;
-idx--;
+index--;
 }
 
 
 if (ptr->next != NULL)
-ptr->next->prev = *ptr->prev;
+{
+ptr->next->prev = ptr->prev;
 ptr->prev = ptr->next;
+flag = 1;
+}
 
-
-return (ptr);
+return (flag);
 }
