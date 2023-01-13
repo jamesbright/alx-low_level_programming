@@ -27,8 +27,8 @@ new_node->prev = ptr;
 ptr = new_node;
 break;
 }
-ptr = ptr->next;
 i = i + 1;
+ptr = ptr->next;
 }
 return (new_node);
 }
