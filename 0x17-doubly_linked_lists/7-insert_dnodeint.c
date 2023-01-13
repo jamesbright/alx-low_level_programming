@@ -14,17 +14,24 @@ dlistint_t *new_node;
 dlistint_t *ptr = *h;
 if (h == NULL)
 return (NULL);
-if (idx == 0)
-return (add_dnodeint(h, n));
+
 
 new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
 
-if (ptr == NULL)
-return (NULL);
-
 new_node->n = n;
+
+if (idx == 0)
+{
+new_node->prev = NULL;
+new_node->next = *h;
+if (*h)
+(*h)->prev = new_node;
+*h = new_node;
+return (*h);
+}
+
 
 while (idx > 1 && ptr && ptr->next)
 {
