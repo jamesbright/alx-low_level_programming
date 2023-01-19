@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/root/alx-higher_level_programming/0x00-python-hello_world'
+let g:netrw_dirhist_4='/root/alx-low_level_programming'
+let g:netrw_dirhist_3='/root/printf/tests'
+let g:netrw_dirhist_2='/root/printf'
+let g:netrw_dirhist_1='/root/printf/tests'

@@ -10,21 +10,51 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/\<head\>
+
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1665675350,,"wq"
+|2,0,1674130043,,"wq"
+:q!
+|2,0,1674053921,,"q!"
+:q
+|2,0,1674053918,,"q"
+:w
+|2,0,1674049742,,"w"
+:!wq
+|2,0,1672867058,,"!wq"
+:.!q
+|2,0,1672867034,,".!q"
+:.,.+1!
+|2,0,1672867025,,".,.+1!"
+:wq!
+|2,0,1669804698,,"wq!"
 :WQ
-|2,0,1665575326,,"WQ"
+|2,0,1668431153,,"WQ"
+:qw
+|2,0,1666278703,,"qw"
+:wa
+|2,0,1666182250,,"wa"
 :wqi
 |2,0,1665433304,,"wqi"
-:q
-|2,0,1665411694,,"q"
-:q!
-|2,0,1665167644,,"q!"
-:w
-|2,0,1664977424,,"w"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1672867030,,"@$"
+? \<head\>
+|2,1,1669313845,,"\\<head\\>"
+? \<convert_b\>
+|2,1,1669107787,,"\\<convert_b\\>"
+? \<0\>
+|2,1,1668700248,,"\\<0\\>"
+? \<array\>
+|2,1,1668683523,,"\\<array\\>"
+? \<s\>
+|2,1,1667846304,,"\\<s\\>"
 
 # Expression History (newest to oldest):
 
@@ -33,745 +63,2044 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	 
-|3,1,36,0,1,0,1665433856," "
+""0	CHAR	0
+	_
+|3,1,0,0,1,0,1672867030,"_"
+"-	CHAR	0
+	_
+|3,0,36,0,1,0,1669803895,"_"
 
 # File marks:
-'0  11  0  ~/0-preprocessor
-|4,48,11,0,1665675350,"~/0-preprocessor"
-'1  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,49,2,30,1665595055,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
-'2  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,50,2,30,1665594279,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
-'3  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,51,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
-'4  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,52,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
-'5  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,53,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
-'6  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,54,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
-'7  2  48  ~/alx-system_engineering-devops/0x02-shell_redirections/18-letteronly
-|4,55,2,48,1665592759,"~/alx-system_engineering-devops/0x02-shell_redirections/18-letteronly"
-'8  2  31  ~/alx-system_engineering-devops/0x02-shell_redirections/17-hidethisword
-|4,56,2,31,1665592424,"~/alx-system_engineering-devops/0x02-shell_redirections/17-hidethisword"
-'9  2  48  ~/alx-system_engineering-devops/0x02-shell_redirections/16-whatsnext
-|4,57,2,48,1665592103,"~/alx-system_engineering-devops/0x02-shell_redirections/16-whatsnext"
+'0  13  3  ~/monty/bytecodes/35.m
+|4,48,13,3,1674130043,"~/monty/bytecodes/35.m"
+'1  31  0  ~/monty/op_mode.c
+|4,49,31,0,1674129951,"~/monty/op_mode.c"
+'2  126  8  ~/monty/monty.h
+|4,50,126,8,1674129483,"~/monty/monty.h"
+'3  109  10  ~/monty/instruct_2.c
+|4,51,109,10,1674129466,"~/monty/instruct_2.c"
+'4  72  0  ~/monty/instruct_2.c
+|4,52,72,0,1674128291,"~/monty/instruct_2.c"
+'5  72  0  ~/monty/instruct_2.c
+|4,53,72,0,1674128291,"~/monty/instruct_2.c"
+'6  31  16  ~/monty/op_func.c
+|4,54,31,16,1674127371,"~/monty/op_func.c"
+'7  143  0  ~/monty/operations.c
+|4,55,143,0,1674127324,"~/monty/operations.c"
+'8  27  14  ~/monty/op_func.c
+|4,56,27,14,1674126921,"~/monty/op_func.c"
+'9  27  14  ~/monty/op_func.c
+|4,57,27,14,1674126921,"~/monty/op_func.c"
 
 # Jumplist (newest first):
--'  11  0  ~/0-preprocessor
-|4,39,11,0,1665675350,"~/0-preprocessor"
--'  1  0  ~/0-preprocessor
-|4,39,1,0,1665675092,"~/0-preprocessor"
--'  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,2,30,1665595055,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,2,30,1665595055,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,2,30,1665594279,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  2  30  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,2,30,1665594279,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,1,0,1665594239,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,1,0,1665594239,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,1,0,1665594239,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-|4,39,1,0,1665594239,"~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,2,0,1665593948,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-|4,39,1,0,1665593879,"~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  12  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,12,1665593751,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  9  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,2,9,1665593637,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-|4,39,1,0,1665593572,"~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
--'  2  15  ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-|4,39,2,15,1665593488,"~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ"
+-'  13  3  ~/monty/bytecodes/35.m
+|4,39,13,3,1674130043,"~/monty/bytecodes/35.m"
+-'  1  0  ~/monty/bytecodes/35.m
+|4,39,1,0,1674130038,"~/monty/bytecodes/35.m"
+-'  31  0  ~/monty/op_mode.c
+|4,39,31,0,1674129951,"~/monty/op_mode.c"
+-'  31  0  ~/monty/op_mode.c
+|4,39,31,0,1674129951,"~/monty/op_mode.c"
+-'  1  0  ~/monty/op_mode.c
+|4,39,1,0,1674129912,"~/monty/op_mode.c"
+-'  1  0  ~/monty/op_mode.c
+|4,39,1,0,1674129912,"~/monty/op_mode.c"
+-'  126  8  ~/monty/monty.h
+|4,39,126,8,1674129483,"~/monty/monty.h"
+-'  126  8  ~/monty/monty.h
+|4,39,126,8,1674129483,"~/monty/monty.h"
+-'  126  8  ~/monty/monty.h
+|4,39,126,8,1674129483,"~/monty/monty.h"
+-'  126  8  ~/monty/monty.h
+|4,39,126,8,1674129483,"~/monty/monty.h"
+-'  125  9  ~/monty/monty.h
+|4,39,125,9,1674129473,"~/monty/monty.h"
+-'  125  9  ~/monty/monty.h
+|4,39,125,9,1674129473,"~/monty/monty.h"
+-'  125  9  ~/monty/monty.h
+|4,39,125,9,1674129473,"~/monty/monty.h"
+-'  125  9  ~/monty/monty.h
+|4,39,125,9,1674129473,"~/monty/monty.h"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  109  10  ~/monty/instruct_2.c
+|4,39,109,10,1674129466,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128451,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  72  0  ~/monty/instruct_2.c
+|4,39,72,0,1674128291,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  51  9  ~/monty/instruct_2.c
+|4,39,51,9,1674127885,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  39  0  ~/monty/instruct_2.c
+|4,39,39,0,1674127764,"~/monty/instruct_2.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
+-'  31  16  ~/monty/op_func.c
+|4,39,31,16,1674127371,"~/monty/op_func.c"
 
 # History of marks within files (newest to oldest):
 
-> ~/0-preprocessor
-	*	1665675347	0
-	"	11	0
-	^	11	1
-	.	11	0
-	+	11	0
+> ~/monty/bytecodes/35.m
+	*	1674130042	0
+	"	13	3
+	^	13	4
+	.	13	3
+	+	13	3
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-	*	1665595052	0
-	"	2	30
-	^	2	31
-	.	2	30
-	+	2	30
+> ~/monty/op_mode.c
+	*	1674129950	0
+	"	31	0
+	^	31	0
+	.	15	0
+	+	31	0
+	+	30	0
+	+	28	0
+	+	27	0
+	+	12	0
+	+	13	0
+	+	15	0
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/21-reverse
-	*	1665593942	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
+> ~/monty/monty.h
+	*	1674129482	0
+	"	126	8
+	^	126	9
+	.	125	9
+	+	130	24
+	+	28	9
+	+	42	16
+	+	12	0
+	+	130	22
+	+	92	47
+	+	68	9
+	+	58	48
+	+	61	13
+	+	45	15
+	+	42	16
+	+	89	0
+	+	88	42
+	+	86	9
+	+	87	11
+	+	88	11
+	+	90	0
+	+	71	3
+	+	83	17
+	+	72	12
+	+	75	1
+	+	93	32
+	+	101	0
+	+	4	20
+	+	105	57
+	+	100	47
+	+	129	47
+	+	120	47
+	+	113	0
+	+	116	0
+	+	121	0
+	+	3	26
+	+	126	8
+	+	125	8
+	+	127	8
+	+	128	8
+	+	129	8
+	+	128	0
+	+	127	9
+	+	126	9
+	+	128	9
+	+	129	9
+	+	125	9
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/20-hiago
-	*	1665593748	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	2	12
+> ~/monty/instruct_2.c
+	*	1674129465	0
+	"	109	10
+	^	109	11
+	.	82	0
+	+	39	0
+	+	1	14
+	+	10	0
+	+	12	0
+	+	10	17
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	18	7
+	+	19	11
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	26	8
+	+	27	0
+	+	28	0
+	+	29	8
+	+	30	0
+	+	31	0
+	+	30	15
+	+	31	17
+	+	32	25
+	+	34	4
+	+	34	0
+	+	35	20
+	+	36	0
+	+	37	7
+	+	13	1
+	+	14	0
+	+	34	20
+	+	35	7
+	+	35	0
+	+	38	17
+	+	72	0
+	+	42	43
+	+	43	3
+	+	50	0
+	+	51	18
+	+	52	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	59	0
+	+	57	0
+	+	60	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	59	2
+	+	69	9
+	+	70	23
+	+	71	12
+	+	72	1
+	+	131	0
+	+	129	0
+	+	128	0
+	+	127	0
+	+	126	0
+	+	125	0
+	+	123	0
+	+	122	0
+	+	121	0
+	+	120	0
+	+	118	0
+	+	117	0
+	+	115	0
+	+	114	0
+	+	113	0
+	+	111	0
+	+	100	0
+	+	99	0
+	+	98	0
+	+	97	0
+	+	96	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	0
+	+	89	0
+	+	88	0
+	+	86	0
+	+	85	0
+	+	84	0
+	+	82	0
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/19-AZ
-	*	1665593485	0
-	"	2	15
-	^	2	16
-	.	2	15
-	+	2	15
+> ~/monty/op_func.c
+	*	1674127366	0
+	"	31	16
+	^	31	17
+	.	31	0
+	+	65	0
+	+	34	0
+	+	16	105
+	+	16	39
+	+	16	17
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	32	0
+	+	33	0
+	+	35	0
+	+	36	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	42	0
+	+	43	1
+	+	41	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	49	1
+	+	51	0
+	+	52	0
+	+	54	0
+	+	55	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	32	0
+	+	16	15
+	+	32	0
+	+	18	13
+	+	19	15
+	+	20	12
+	+	21	38
+	+	21	20
+	+	20	7
+	+	21	52
+	+	32	0
+	+	21	51
+	+	21	13
+	+	25	12
+	+	22	6
+	+	23	6
+	+	25	14
+	+	23	14
+	+	22	14
+	+	21	12
+	+	26	17
+	+	27	15
+	+	31	18
+	+	29	0
+	+	30	0
+	+	31	0
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/18-letteronly
-	*	1665592755	0
-	"	2	48
-	^	2	49
-	.	2	48
-	+	2	48
+> ~/monty/operations.c
+	*	1674127324	0
+	"	143	0
+	^	143	1
+	.	144	0
+	+	27	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	10	0
+	+	55	0
+	+	42	0
+	+	41	18
+	+	40	16
+	+	49	0
+	+	46	24
+	+	48	21
+	+	54	0
+	+	53	13
+	+	76	0
+	+	66	0
+	+	62	3
+	+	72	0
+	+	70	61
+	+	71	0
+	+	75	24
+	+	76	1
+	+	111	0
+	+	110	0
+	+	109	0
+	+	108	0
+	+	107	0
+	+	106	0
+	+	105	0
+	+	104	0
+	+	102	0
+	+	101	0
+	+	100	0
+	+	99	0
+	+	98	0
+	+	97	0
+	+	96	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	0
+	+	90	0
+	+	88	0
+	+	87	0
+	+	143	0
+	+	142	0
+	+	141	0
+	+	140	0
+	+	139	0
+	+	138	0
+	+	137	0
+	+	136	0
+	+	135	0
+	+	134	0
+	+	133	0
+	+	132	0
+	+	131	0
+	+	130	0
+	+	128	0
+	+	127	0
+	+	126	0
+	+	124	0
+	+	123	0
+	+	122	0
+	+	121	0
+	+	128	0
+	+	144	0
 
-> ~/alx-system_engineering-devops/0x02-shell_redirections/17-hidethisword
-	*	1665592420	0
-	"	2	31
-	^	2	32
-	.	2	31
-	+	2	31
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/16-whatsnext
-	*	1665592096	0
-	"	2	48
-	^	2	49
-	.	2	48
-	+	2	48
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/15-countthatword
-	*	1665591433	0
-	"	2	38
-	^	2	39
-	.	2	38
-	+	2	38
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/14-findthatword
-	*	1665591183	0
-	"	2	24
-	^	2	25
-	.	2	24
-	+	2	24
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/13-unique
-	*	1665590281	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
-	*	1665578915	0
-	"	2	30
-	^	2	31
-	.	2	31
-	+	2	31
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
-	*	1665576646	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
-	*	1665575492	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
-	*	1665574550	0
+> ~/monty/bytecodes/28.m
+	*	1674125606	0
 	"	2	4
 	^	2	5
 	.	2	4
 	+	2	4
 
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-	*	1665574429	0
-	"	2	4
-	^	2	5
-	.	2	5
-	+	2	5
+> ~/monty/instruct_math.c
+	*	1674057063	0
+	"	82	0
+	^	82	0
+	.	61	0
+	+	21	58
+	+	21	65
+	+	21	111
+	+	21	13
+	+	21	105
+	+	12	0
+	+	13	13
+	+	21	13
+	+	21	120
+	+	21	1
+	+	13	10
+	+	126	0
+	+	125	0
+	+	124	0
+	+	123	0
+	+	122	0
+	+	121	0
+	+	119	0
+	+	118	0
+	+	117	0
+	+	116	0
+	+	115	0
+	+	113	0
+	+	112	0
+	+	111	0
+	+	110	0
+	+	109	0
+	+	107	0
+	+	96	0
+	+	95	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	90	0
+	+	89	0
+	+	88	0
+	+	87	0
+	+	86	0
+	+	84	0
+	+	59	313
+	+	59	291
+	+	59	267
+	+	59	234
+	+	59	220
+	+	59	219
+	+	59	200
+	+	59	150
+	+	59	149
+	+	59	128
+	+	59	127
+	+	59	108
+	+	59	48
+	+	59	47
+	+	59	14
+	+	59	0
+	+	82	8
+	+	105	8
+	+	48	0
+	+	47	0
+	+	46	0
+	+	45	0
+	+	44	0
+	+	42	0
+	+	41	0
+	+	40	0
+	+	39	0
+	+	38	0
+	+	36	0
+	+	34	8
+	+	3	3
+	+	23	19
+	+	22	0
+	+	23	0
+	+	22	11
+	+	13	3
+	+	15	35
+	+	10	9
+	+	35	0
+	+	34	9
+	+	82	9
+	+	105	9
+	+	73	0
+	+	72	15
+	+	71	0
+	+	70	0
+	+	69	38
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	0
+	+	63	48
+	+	62	0
+	+	61	0
 
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
-	*	1665512055	0
-	"	2	10
-	^	2	11
-	.	2	10
-	+	2	10
+> ~/monty/monty.c
+	*	1674054150	0
+	"	28	0
+	^	28	0
+	.	29	0
+	+	11	32
+	+	22	1
+	+	21	1
+	+	24	56
+	+	29	0
 
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
-	*	1665511594	0
-	"	2	29
-	^	2	30
-	.	2	29
-	+	2	29
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
-	*	1665511403	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	2	19
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/3-paths
-	*	1665510723	0
-	"	2	31
-	^	2	32
-	.	2	0
-	+	2	0
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/2-path
-	*	1665509692	0
-	"	2	25
-	^	2	26
-	.	2	25
-	+	2	25
-
-> ~/.bashrc
-	*	1665505551	0
-	"	93	24
-	^	93	25
-	.	93	24
-	+	93	24
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
-	*	1665504946	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	2	17
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/0-alias
-	*	1665504435	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/12-newest_files
-	*	1665442626	0
-	"	2	35
-	^	2	36
-	.	2	35
-	+	2	106
-	+	2	35
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/11-directories
-	*	1665422567	0
-	"	2	10
-	^	2	9
-	.	2	9
-	+	2	9
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/7-file
-	*	1665422158	0
-	"	2	78
-	^	2	79
-	.	2	78
-	+	2	78
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/10-no_more_js
-	*	1665419016	0
-	"	2	40
-	^	2	41
-	.	2	40
-	+	2	40
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
-	*	1665418652	0
-	"	2	15
-	^	2	13
-	.	2	12
-	+	2	12
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/8-cwd_state
-	*	1665418169	0
-	"	2	22
-	^	2	23
-	.	2	12
-	+	2	12
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/6-third_line
-	*	1665416795	0
-	"	2	27
-	^	2	28
-	.	2	28
-	+	2	28
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/0-hello_world
-	*	1665416002	0
-	"	2	19
-	^	2	19
-	.	3	0
-	+	1	10
-	+	2	20
-	+	2	29
-	+	2	5
-	+	2	18
-	+	2	20
-	+	3	0
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/3-twofiles
-	*	1665415851	0
-	"	2	4
-	^	2	5
-	.	2	3
-	+	2	3
-
-> ~/alx-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
-	*	1665414746	0
-	"	2	11
-	^	2	11
-	.	2	6
-	+	2	6
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/103-commas
-	*	1665167642	0
-	"	1	0
-	^	3	0
-	.	2	41
-	+	2	41
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/102-tree
-	*	1665165044	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
-	*	1665164393	0
-	"	2	28
-	^	2	29
-	.	2	29
-	+	2	29
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/103-star_wars
-	*	1665164151	0
-	"	2	39
-	^	2	40
-	.	2	39
-	+	2	39
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-	*	1665163667	0
-	"	2	39
-	^	2	40
-	.	2	40
-	+	2	40
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions
-	*	1665163254	0
-	"	2	3
-	^	2	4
-	.	2	3
-	+	2	3
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group
-	*	1665162952	0
-	"	2	24
-	^	2	25
-	.	2	9
-	+	2	9
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/14-copy_html
-	*	1665162357	0
-	"	2	0
-	^	2	0
-	.	1	11
-	+	1	12
-	+	1	66
-	+	1	11
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-	*	1665161931	0
-	"	2	0
-	^	2	0
-	.	1	11
-	+	1	11
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/12-file_type
-	*	1665160129	0
+> ~/monty/vim
+	*	1674053920	0
 	"	1	0
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/13-symbolic_link
-	*	1665160020	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	2	4
+> ~/monty/bytecodes/12.m
+	*	1674053841	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/11-directories_permissions
-	*	1665067533	0
-	"	2	5
-	^	2	6
-	.	2	5
-	+	1	11
-	+	2	5
+> ~/monty/bytecodes/09.m
+	*	1674053817	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/13-change_group
-	*	1665067272	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	2	17
+> ~/monty/bytecodes/07.m
+	*	1674053776	0
+	"	10	3
+	^	10	4
+	.	10	3
+	+	10	3
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/12-directory_permissions
-	*	1665067154	0
-	"	2	18
-	^	2	19
-	.	2	18
-	+	2	18
+> ~/monty/bytecodes/06.m
+	*	1674053750	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/10-mirror_permissions
-	*	1665066405	0
-	"	2	28
-	^	2	29
-	.	2	28
-	+	2	28
+> ~/monty/math.c
+	*	1674053513	0
+	"	23	0
+	^	23	1
+	.	22	44
+	+	23	0
+	+	18	1
+	+	17	1
+	+	14	55
+	+	17	18
+	+	23	0
+	+	21	26
+	+	22	44
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/9-John_Doe
-	*	1665066179	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
+> ~/monty/instruct_1.c
+	*	1674052702	0
+	"	96	0
+	^	96	0
+	.	94	12
+	+	37	0
+	+	19	0
+	+	19	1
+	+	21	3
+	+	13	16
+	+	27	0
+	+	24	53
+	+	26	18
+	+	29	7
+	+	36	12
+	+	34	21
+	+	59	0
+	+	51	87
+	+	51	68
+	+	51	86
+	+	51	88
+	+	50	14
+	+	51	0
+	+	58	0
+	+	57	26
+	+	81	1
+	+	59	0
+	+	82	0
+	+	80	0
+	+	79	0
+	+	78	0
+	+	77	0
+	+	76	0
+	+	75	0
+	+	73	0
+	+	72	0
+	+	70	0
+	+	54	20
+	+	57	0
+	+	24	29
+	+	22	13
+	+	34	24
+	+	36	16
+	+	108	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	107	0
+	+	93	0
+	+	94	0
+	+	50	13
+	+	53	13
+	+	54	10
+	+	56	18
+	+	57	3
+	+	51	6
+	+	93	14
+	+	94	12
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/8-James_Bond
-	*	1665065796	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
+> ~/monty/checks.c
+	*	1674049749	0
+	"	3	18
+	^	3	19
+	.	4	0
+	+	76	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	24	0
+	+	35	0
+	+	37	0
+	+	38	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	50	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	4	0
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/7-everybody
-	*	1665065693	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
+> ~/monty/process.c
+	*	1674049677	0
+	"	72	0
+	^	72	1
+	.	73	0
+	+	40	0
+	+	14	12
+	+	21	0
+	+	20	18
+	+	35	0
+	+	34	52
+	+	37	27
+	+	39	10
+	+	72	1
+	+	72	0
+	+	62	0
+	+	61	0
+	+	60	18
+	+	68	0
+	+	67	27
+	+	70	24
+	+	68	1
+	+	25	14
+	+	19	36
+	+	13	19
+	+	27	16
+	+	26	18
+	+	54	18
+	+	13	0
+	+	12	0
+	+	17	2
+	+	33	2
+	+	73	0
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/6-multiple_permissions
-	*	1665064789	0
-	"	2	6
-	^	2	7
-	.	2	6
-	+	2	6
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/5-execute
-	*	1665064292	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/4-empty
-	*	1665064211	0
-	"	2	10
-	^	2	11
-	.	2	10
-	+	2	10
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/3-new_owner
-	*	1665064135	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/2-groups
-	*	1665064018	0
-	"	2	5
-	^	2	6
-	.	2	5
-	+	2	5
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-	*	1665063673	0
-	"	2	2
-	^	2	3
-	.	2	3
-	+	2	3
-
-> ~/alx-system_engineering-devops/0x01-shell_permissions/1-who_am_i
-	*	1665063306	0
-	"	2	5
-	^	2	6
-	.	2	5
-	+	2	5
-
-> ~/zero_day/0x00-vagrant/0-hello_ubuntu
-	*	1665059737	0
+> ~/monty/.gitignore
+	*	1674038607	0
 	"	1	4
 	^	1	5
 	.	1	4
 	+	1	4
+	o	1	0
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/10-back
-	*	1664984199	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	12
-	+	2	0
-	+	2	29
-	+	2	0
+> ~/monty/bytecodes/00.m
+	*	1674038528	0
+	"	4	3
+	^	4	4
+	.	4	3
+	+	4	3
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/11-lists
-	*	1664983618	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	2	8
+> ~/monty/README.md
+	*	1674038075	0
+	"	12	2
+	^	12	3
+	.	12	2
+	+	10	45
+	+	4	1
+	+	1	1
+	+	30	18
+	+	12	2
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-	*	1664981613	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-	*	1664980320	0
-	"	2	29
-	^	2	30
-	.	2	31
-	+	2	31
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
-	*	1664978570	0
-	"	2	3
-	^	2	4
-	.	2	3
-	+	2	3
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
-	*	1664977988	0
-	"	2	0
-	^	2	0
-	.	1	11
+> ~/alx-low_level_programming/0x18-dynamic_libraries/101-make_me_win.sh
+	*	1673950442	0
+	"	2	72
+	^	2	73
+	.	2	72
+	+	3	36
 	+	1	11
+	+	2	72
 
-> ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-	*	1664977424	0
+> ~/alx-low_level_programming/0x18-dynamic_libraries/gigamillions.c
+	*	1673949972	0
+	"	22	0
+	^	22	0
+	.	2	0
+	+	22	0
+	+	2	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/100-tests.py
+	*	1673949487	0
+	"	11	49
+	^	11	50
+	.	11	49
+	+	11	49
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/100-operations.c
+	*	1673949164	0
+	"	1	2
+	^	1	3
+	.	62	20
+	+	4	19
+	+	3	19
+	+	12	0
+	+	10	23
+	+	38	1
+	+	64	1
+	+	21	6
+	+	15	18
+	+	18	13
+	+	23	20
+	+	28	5
+	+	31	13
+	+	34	6
+	+	36	20
+	+	41	38
+	+	44	13
+	+	47	6
+	+	49	20
+	+	54	5
+	+	57	13
+	+	60	6
+	+	62	20
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/1-create_dynamic_lib.sh
+	*	1673948388	0
+	"	5	43
+	^	5	44
+	.	5	43
+	+	5	43
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/0-main.c
+	*	1673945853	0
+	"	12	12
+	^	12	13
+	.	12	12
+	+	12	12
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/2-strncpy.c
+	*	1673945335	0
+	"	21	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/3-strncpy.c
+	*	1673945302	0
+	"	1	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/main.h
+	*	1673945270	0
+	"	25	22
+	^	25	23
+	.	25	23
+	+	28	0
+	+	27	0
+	+	4	21
+	+	23	43
+	+	2	15
+	+	25	23
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/_putchar.c
+	*	1673945128	0
+	"	4	34
+	^	4	35
+	.	4	35
+	+	4	35
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/11-multiply_list_map.py
+	*	1673793415	0
+	"	4	39
+	^	4	40
+	.	1	0
+	+	4	56
+	+	1	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/10-best_score.py
+	*	1673793059	0
 	"	2	0
 	^	2	0
-	.	1	11
-	+	1	11
+	.	1	18
+	+	11	14
+	+	1	18
 
-> ~/alx-zero_day/0x03-git/bash/school
-	*	1664923406	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	2	19
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/9-multiply_by_2.py
+	*	1673792943	0
+	"	6	12
+	^	6	14
+	.	6	13
+	+	1	17
+	+	7	20
+	+	6	13
 
-> ~/alx-zero_day/0x03-git/bash/alx
-	*	1664923042	0
-	"	1	10
-	^	1	11
-	.	2	0
-	+	1	32
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/8-simple_delete.py
+	*	1673792337	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	6	22
+	+	1	18
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/7-update_dictionary.py
+	*	1673792211	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	5	22
+	+	1	18
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/6-print_sorted_dictionary.py
+	*	1673792064	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	1	226
+	+	1	0
+	+	1	18
+	+	1	105
+	+	1	140
+	+	1	175
+	+	6	41
 	+	1	0
 	+	3	0
-	+	2	0
+	+	1	18
 
-> ~/alx-zero_day/0x03-git/bash/alx_REMOTE_991
-	*	1664922875	0
-	"	2	4
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/5-number_keys.py
+	*	1673791669	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	4	34
+	+	3	0
+	+	1	18
 
-> ~/alx-zero_day/0x03-git/bash/alx_BASE_991
-	*	1664922855	0
-	"	2	4
-
-> ~/alx-zero_day/0x03-git/bash/alx_LOCAL_991
-	*	1664922819	0
-	"	3	10
-	^	3	11
-	.	3	11
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/4-only_diff_elements.py
+	*	1673791544	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	4	23
 	+	1	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/3-common_elements.py
+	*	1673791381	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	4	23
+	+	1	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/2-uniq_add.py
+	*	1673791165	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	6	26
+	+	5	25
+	+	6	13
+	+	5	11
+	+	6	18
+	+	3	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/1-search_replace.py
+	*	1673790877	0
+	"	5	12
+	^	5	13
+	.	5	9
+	+	1	18
+	+	5	41
+	+	6	16
+	+	5	73
+	+	5	140
+	+	5	128
+	+	5	24
+	+	5	121
+	+	5	23
+	+	6	18
+	+	5	13
+	+	6	15
+	+	4	46
+	+	5	4
+	+	5	0
+	+	6	15
+	+	4	15
+	+	5	9
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/0-square_matrix_simple.py
+	*	1673789239	0
+	"	11	15
+	^	11	16
+	.	10	0
+	+	5	149
+	+	5	18
+	+	5	33
+	+	5	97
+	+	5	106
+	+	4	8
+	+	5	26
+	+	5	41
+	+	5	105
+	+	5	101
+	+	5	130
+	+	5	148
+	+	5	18
+	+	11	18
+	+	6	12
+	+	5	13
+	+	6	12
+	+	8	33
+	+	9	12
+	+	11	15
+	+	6	4
+	+	10	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/README.md
+	*	1673646491	0
+	"	50	0
+	^	50	0
+	.	49	47
+	+	5	19
+	+	9	52
+	+	49	47
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c
+	*	1673645857	0
+	"	45	0
+	^	45	1
+	.	14	12
+	+	9	316
+	+	4	8
+	+	9	67
+	+	9	82
+	+	9	121
+	+	9	113
+	+	9	104
+	+	9	269
+	+	9	290
+	+	9	292
+	+	9	312
+	+	9	156
+	+	9	154
+	+	9	128
+	+	9	121
+	+	9	155
+	+	9	156
+	+	4	36
+	+	5	35
+	+	6	7
+	+	7	0
+	+	9	112
+	+	9	260
+	+	9	136
+	+	7	37
+	+	9	81
+	+	9	241
+	+	9	301
+	+	9	313
+	+	9	106
+	+	9	164
+	+	9	211
+	+	45	0
+	+	44	0
+	+	12	394
+	+	12	383
+	+	12	368
+	+	12	336
+	+	12	304
+	+	12	285
+	+	12	259
+	+	12	258
+	+	12	245
+	+	11	0
+	+	12	0
+	+	12	48
+	+	12	72
+	+	12	73
+	+	12	91
+	+	12	92
+	+	12	114
+	+	12	135
+	+	12	150
+	+	12	151
+	+	12	155
+	+	12	168
+	+	12	179
+	+	12	180
+	+	12	213
+	+	12	214
+	+	12	240
+	+	12	244
+	+	14	28
+	+	31	0
+	+	30	15
+	+	32	0
+	+	42	0
+	+	35	28
+	+	35	14
+	+	35	0
+	+	41	10
+	+	26	0
+	+	25	10
+	+	14	4
+	+	15	9
+	+	14	19
+	+	19	4
+	+	23	4
+	+	40	33
+	+	19	9
+	+	23	17
+	+	23	28
+	+	14	4
+	+	22	0
+	+	24	0
+	+	36	22
+	+	40	29
+	+	12	41
+	+	19	4
+	+	20	12
+	+	24	0
+	+	23	0
+	+	36	21
+	+	39	26
+	+	37	19
+	+	38	26
+	+	40	14
+	+	41	0
+	+	20	14
+	+	14	12
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/8-main.c
+	*	1673644542	0
+	"	70	0
+	^	70	1
+	.	70	0
+	+	70	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c
+	*	1673643869	0
+	"	1	12
+	^	33	13
+	.	34	0
+	+	30	166
+	+	18	14
+	+	30	0
+	+	30	149
+	+	30	130
+	+	30	103
+	+	30	7
+	+	30	166
+	+	14	41
+	+	30	9
+	+	30	105
+	+	30	132
+	+	30	174
+	+	30	56
+	+	30	134
+	+	29	15
+	+	30	148
+	+	30	85
+	+	30	182
+	+	30	165
+	+	14	46
+	+	14	74
+	+	14	32
+	+	14	46
+	+	14	45
+	+	18	14
+	+	32	42
+	+	32	55
+	+	32	0
+	+	32	29
+	+	32	38
+	+	32	54
+	+	33	13
+	+	32	82
+	+	32	103
+	+	32	144
+	+	32	82
+	+	32	61
+	+	32	84
+	+	32	96
+	+	32	117
+	+	32	146
+	+	32	46
+	+	32	27
+	+	32	107
+	+	32	89
+	+	32	110
+	+	32	163
+	+	20	16
+	+	20	17
+	+	14	0
+	+	20	4
+	+	14	32
+	+	20	0
+	+	28	0
+	+	27	11
+	+	29	0
+	+	19	16
+	+	32	55
+	+	13	26
+	+	32	20
+	+	13	38
+	+	32	20
+	+	32	37
+	+	32	54
+	+	32	81
+	+	32	82
+	+	32	143
+	+	32	158
+	+	32	210
+	+	33	27
+	+	33	39
+	+	14	32
+	+	15	0
+	+	13	18
+	+	30	16
+	+	32	191
+	+	14	32
+	+	15	0
+	+	19	16
+	+	20	0
+	+	15	38
+	+	44	0
+	+	67	0
+	+	62	22
+	+	55	0
+	+	56	0
+	+	32	50
+	+	33	12
+	+	14	35
+	+	62	21
+	+	63	17
+	+	45	11
+	+	14	33
+	+	45	65
+	+	46	0
+	+	62	21
+	+	63	18
+	+	66	13
+	+	34	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/lists.h
+	*	1673643837	0
+	"	32	67
+	^	32	68
+	.	32	67
+	+	5	17
+	+	22	43
+	+	23	40
+	+	24	57
+	+	25	61
+	+	26	0
+	+	27	0
+	+	31	0
+	+	27	72
+	+	28	35
+	+	29	78
+	+	30	67
+	+	31	104
+	+	31	11
+	+	32	67
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/7-main.c
+	*	1673603160	0
+	"	30	25
+	^	31	1
+	.	31	0
+	+	31	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/6-sum_dlistint.c
+	*	1673602285	0
+	"	12	11
+	^	12	12
+	.	12	11
+	+	22	0
+	+	20	0
+	+	19	17
+	+	21	12
+	+	14	11
+	+	16	0
+	+	12	11
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/5-get_dnodeint.c
+	*	1673601707	0
+	"	14	5
+	^	14	6
+	.	14	5
+	+	25	0
+	+	16	3
+	+	14	15
+	+	16	14
+	+	13	19
+	+	20	0
+	+	19	5
+	+	24	17
+	+	13	25
+	+	12	8
+	+	13	19
+	+	23	0
+	+	13	26
+	+	14	5
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/.gitignore
+	*	1673601624	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/5-main.c
+	*	1673601223	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	31	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/4-free_dlistint.c
+	*	1673600120	0
+	"	17	2
+	^	17	3
+	.	17	2
+	+	5	28
+	+	4	33
+	+	19	0
+	+	18	0
+	+	17	13
+	+	16	7
+	+	17	2
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/3-add_dnodeint_end.c
+	*	1673599314	0
+	"	36	0
+	^	36	1
+	.	32	21
+	+	6	10
+	+	4	29
+	+	44	0
+	+	43	17
+	+	21	10
+	+	21	45
+	+	35	0
+	+	21	23
+	+	21	22
+	+	21	44
+	+	38	13
+	+	21	23
+	+	39	14
+	+	41	27
+	+	43	11
+	+	7	22
+	+	43	15
+	+	38	43
+	+	41	0
+	+	21	0
+	+	20	23
+	+	21	0
+	+	23	0
+	+	22	17
+	+	20	20
+	+	22	0
+	+	20	11
+	+	35	0
+	+	39	1
+	+	40	21
+	+	34	12
+	+	42	0
+	+	14	65
+	+	14	50
+	+	16	15
+	+	20	16
+	+	16	14
+	+	24	0
+	+	33	0
+	+	28	26
+	+	32	21
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/2-add_dnodeint.c
+	*	1673553219	0
+	"	18	2
+	^	18	3
+	.	18	2
+	+	33	0
+	+	19	4
+	+	13	10
+	+	19	5
+	+	13	11
+	+	19	17
+	+	14	0
+	+	13	24
+	+	29	0
+	+	19	22
+	+	14	50
+	+	31	17
+	+	16	14
+	+	6	21
+	+	7	20
+	+	19	0
+	+	21	22
+	+	19	0
+	+	24	1
+	+	25	0
+	+	21	0
+	+	26	0
+	+	28	15
+	+	20	21
+	+	18	2
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/1-dlistint_len.c
+	*	1673551561	0
+	"	14	11
+	^	14	12
+	.	14	11
+	+	5	27
+	+	18	0
+	+	17	14
+	+	13	1
+	+	15	0
+	+	16	0
+	+	14	11
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/0x17-doubly_linked_lists
+	*	1673532095	0
+	"	1	0
+
+> ~/alx-low_level_programming/0x17-doubly_linked_lists/0-print_dlistint.c
+	*	1673530167	0
+	"	6	2
+	^	6	3
+	.	6	3
+	+	20	0
+	+	7	3
+	+	13	17
+	+	18	0
+	+	16	11
+	+	15	18
+	+	10	43
+	+	12	8
+	+	17	9
+	+	19	10
+	+	12	5
+	+	15	11
+	+	6	3
+
+> ~/alx-higher_level_programming/0x17-doubly_linked_lists/0-print_dlistint.c
+	*	1673529267	0
+	"	1	0
+	^	1	0
+
+> ~/alx-higher_level_programming/0x17-doubly_linked_lists/lists.h
+	*	1673529003	0
+	"	19	24
+	^	19	25
+	.	19	24
+	+	18	12
+	+	3	0
+	+	2	15
+	+	19	24
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/13-is_palindrome.c
+	*	1673395281	0
+	"	35	0
+	^	35	1
+	.	16	23
+	+	6	28
+	+	17	0
+	+	13	0
+	+	1	18
+	+	17	2
+	+	35	0
+	+	20	19
+	+	25	19
+	+	20	19
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	29	19
+	+	16	32
+	+	14	0
+	+	15	0
+	+	16	23
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/lists.h
+	*	1673395132	0
+	"	27	0
+	^	27	0
+	.	26	20
+	+	26	19
+	+	19	3
+	+	4	19
+	+	25	55
+	+	16	0
+	+	17	0
+	+	26	20
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/linked_lists.c
+	*	1673394857	0
+	"	74	0
+	^	74	0
+	.	17	0
+	+	74	0
+	+	1	0
+	+	10	3
+	+	11	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	17	0
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/13-main.c
+	*	1673394014	0
+	"	35	0
+	^	35	1
+	.	35	0
+	+	35	0
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/12-switch.py
+	*	1673392337	0
+	"	4	10
+	^	4	11
+	.	4	10
+	+	5	36
+	+	4	10
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/11-delete_at.py
+	*	1673392160	0
+	"	5	18
+	^	5	19
+	.	5	18
+	+	6	318
+	+	6	468
+	+	6	162
+	+	6	186
+	+	7	0
+	+	7	19
+	+	6	0
+	+	5	18
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/10-divisible_by_2.py
+	*	1673389498	0
+	"	9	23
+	^	9	24
+	.	10	0
+	+	9	23
+	+	10	0
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/9-max_integer.py
+	*	1673387199	0
+	"	9	29
+	^	9	30
+	.	9	29
+	+	10	38
+	+	14	23
+	+	5	18
+	+	4	15
+	+	7	23
+	+	8	24
+	+	9	23
+	+	8	15
+	+	7	14
+	+	10	32
+	+	12	29
+	+	8	30
+	+	9	29
+	i	9	21
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/8-multiple_returns.py
+	*	1673385556	0
+	"	10	22
+	^	10	23
+	.	10	22
+	+	14	47
+	+	5	0
+	+	6	12
+	+	14	47
+	+	14	42
+	+	15	0
+	+	7	6
+	+	10	30
+	+	14	42
+	+	13	19
+	+	14	37
+	+	10	34
+	+	7	10
+	+	14	36
+	+	10	22
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/7-add_tuple.py
+	*	1673384756	0
+	"	9	20
+	^	9	21
+	.	9	21
+	+	1	18
+	+	4	26
+	+	12	63
+	+	13	15
+	+	7	20
+	+	9	21
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/6-print_matrix_integer.py
+	*	1673383816	0
+	"	11	23
+	^	11	24
+	.	7	16
+	+	10	34
+	+	12	50
+	+	13	0
+	+	6	6
+	+	10	21
+	+	11	22
+	+	12	43
+	+	9	9
+	+	10	7
+	+	11	11
+	+	12	15
+	+	9	8
+	+	7	22
+	+	4	27
+	+	7	16
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/5-no_c.py
+	*	1673277339	0
+	"	12	22
+	^	12	23
+	.	13	0
+	+	12	23
+	+	13	0
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/3-print_reversed_list_integer.py
+	*	1673276610	0
+	"	4	21
+	^	4	22
+	.	5	21
+	+	8	56
+	+	3	44
+	+	3	48
+	+	7	4
+	+	8	8
+	+	8	43
+	+	3	67
+	+	7	29
+	+	8	32
+	+	9	0
+	+	7	30
+	+	6	0
+	+	4	31
+	+	7	30
+	+	4	4
+	+	7	12
+	+	8	41
+	+	4	22
+	+	5	19
+	+	7	29
+	+	8	30
+	+	5	21
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/4-new_in_list.py
+	*	1673276486	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	10	22
+	+	5	25
+	+	13	18
+	+	5	27
+	+	10	16
+	+	8	16
+	+	9	4
+	+	10	26
+	+	9	19
+	+	11	0
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/README.md
+	*	1673274070	0
+	"	112	39
+	^	112	40
+	.	112	39
+	+	1	2
+	+	74	39
+	+	70	2
+	+	112	39
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/2-replace_in_list.py
+	*	1673273679	0
+	"	10	21
+	^	10	22
+	.	10	21
+	+	10	21
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/1-element_at.py
+	*	1673273369	0
+	"	6	14
+	^	6	15
+	.	6	14
+	+	9	26
+	+	6	14
+
+> ~/alx-higher_level_programming/0x03-python-data_structures/0-print_list_integer.py
+	*	1673272830	0
+	"	5	32
+	^	5	33
+	.	5	32
+	+	4	12
+	+	5	32
+
+> ~/0x03-python-data_structures/README.md
+	*	1673271918	0
+	"	10	0
+	^	10	0
+	.	9	0
+	+	9	0
+
+> ~/0x03-python-data_structures/0-print_list_integer.py
+	*	1673271849	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	5	43
+	+	1	18
+
+> ~/0x03-python-data_structures/lists.h
+	*	1673271508	0
+	"	3	0
+	^	3	0
+	.	2	6
+	+	5	5
+	+	2	6
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/103-fast_alphabet.py
+	*	1673266775	0
+	"	4	28
+	^	4	29
+	.	4	28
+	+	4	28
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/101-easy_print.py
+	*	1673266286	0
+	"	2	0
+	^	2	0
+	.	3	67
+	+	3	67
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/100-my_calculator.py
+	*	1673266060	0
+	"	25	34
+	^	25	35
+	.	25	34
+	+	1	860
+	+	1	206
+	+	1	417
+	+	1	195
+	+	1	528
+	+	1	324
+	+	1	856
+	+	1	195
+	+	1	629
+	+	1	694
+	+	1	713
+	+	1	779
+	+	1	798
+	+	1	847
+	+	1	18
+	+	1	529
+	+	1	402
+	+	1	412
+	+	1	555
+	+	1	564
+	+	1	635
+	+	1	648
+	+	1	719
+	+	1	733
+	+	1	792
+	+	1	801
+	+	1	123
+	+	1	172
+	+	1	180
+	+	1	153
+	+	1	398
+	+	1	217
+	+	1	308
+	+	1	127
+	+	1	376
+	+	1	386
+	+	1	377
+	+	1	215
+	+	1	407
+	+	1	532
+	+	1	312
+	+	1	406
+	+	1	445
+	+	1	857
+	+	1	209
+	+	1	504
+	+	1	599
+	+	1	694
+	+	1	789
+	+	25	34
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/5-variable_load.py
+	*	1673261938	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	6	26
+	+	1	1
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/variable_load_5.py
+	*	1673261695	0
+	"	4	2
+	^	4	3
+	.	4	2
+	+	4	2
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/4-hidden_discovery.py
+	*	1673261522	0
+	"	7	19
+	^	7	20
+	.	7	19
+	+	7	19
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/3-infinite_add.py
+	*	1673261173	0
+	"	11	34
+	^	11	35
+	.	11	34
+	+	14	28
+	+	11	34
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/2-args.py
+	*	1673260041	0
+	"	21	9
+	^	21	10
+	.	21	9
+	+	1	499
+	+	1	197
+	+	1	139
+	+	1	214
+	+	1	478
+	+	21	9
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/calculator_1.py
+	*	1673257509	0
+	"	1	0
+	^	2	0
+	.	1	18
+	+	52	20
+	+	1	18
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/1-calculation.py
+	*	1673257485	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	8	55
+	+	11	16
+	+	10	46
+	+	9	16
+	+	1	18
+	+	4	24
 	+	2	0
-	+	3	11
+	+	4	25
+	+	1	17
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/0-add.py
+	*	1673256196	0
+	"	5	0
+	^	5	0
+	.	5	0
+	+	8	54
+	+	2	0
+	+	5	0
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/README.md
+	*	1673255825	0
+	"	12	91
+	^	12	92
+	.	12	91
+	+	12	91
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/add_0.py
+	*	1673255450	0
+	"	17	17
+	^	17	18
+	.	17	17
+	+	17	17
+
+> ~/alx-higher_level_programming/0x00-python-hello_world/lists.h
+	*	1672867128	0
+	"	9	32
+	^	9	33
+	.	10	0
+	+	4	18
+	+	2	0
+	+	6	20
+	+	1	8
+	+	2	8
+	+	10	0
+
+> ~/alx-higher_level_programming/0x00-python-hello_world/3-print_number.py
+	*	1672866564	0
+	"	3	20
+	^	3	21
+	.	3	42
+	+	3	43
+	+	4	0
+	+	3	42
+
+> ~/alx-higher_level_programming/0x00-python-hello_world/2-print.py
+	*	1672864746	0
+	"	1	7
+	^	1	8
+	.	2	7
+	+	1	18
+	+	2	0
+	+	2	62
+	+	3	0
+	+	2	7
+
+> ~/alx-higher_level_programming/0x00-python-hello_world/4-print_float.py
+	*	1672785925	0
+	"	3	36
+	^	3	37
+	.	3	36
+	+	3	36
+
+> ~/alx-higher_level_programming/0x00-python-hello_world/1-run_inline
+	*	1672779387	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
