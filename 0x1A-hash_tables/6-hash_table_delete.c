@@ -19,16 +19,6 @@ next_temp = ht->array[i];
 while (temp)
 {
 temp = next_temp;
-next_temp = next_temp->next;
-if (temp->key != NULL)
-free(temp->key);
-if (temp->value != NULL)
-free(temp->value);
-free(temp);
+next_temp = next_temp;
 }
-free(ht->array[i]);
-i++;
-}
-free(ht->array);
-free(ht);
-}
+}}
