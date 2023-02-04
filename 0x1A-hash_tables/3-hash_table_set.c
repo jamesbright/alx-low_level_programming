@@ -36,7 +36,7 @@ free(temp->value);
 temp->value = temp_val;
 temp->value = strdup(value);
 free(temp_val);
-return (1)
+return (1);
 }
 temp = temp->next;
 }
