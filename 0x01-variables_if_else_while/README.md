@@ -33,3 +33,42 @@ This project focuses on using arithmetic, logical, relational, and boolean opera
 
 * **7. Smile in the mirror**
   * [7-print_tebahpla.c](./7-print_tebahpla.c): This C program prints the lowercase alphabet in reverse order, followed by a new line, using only the `putchar` function exactly twice
+Apologies for the incomplete response. Here's the continuation of the tasks:
+
+* **8. Hexadecimal**
+  * [8-print_base16.c](./8-print_base16.c): This C program prints all the numbers of base 16 in lowercase, followed by a new line, using only the `putchar` function exactly three times.
+
+* **9. Patience, persistence, and perspiration make an unbeatable combination for success**
+  * [9-print_comb.c](./9-print_comb.c): This C program prints all possible combinations of single-digit numbers, using only the `putchar` function exactly four times without using any variables of type `char`. The following conditions apply:
+    * Numbers are separated by a comma `,` followed by a space.
+    * Numbers are printed in ascending order.
+
+* **10. 00...99**
+  * [10-print_comb2.c](./10-print_comb2.c): This C program prints the numbers from `00` to `99`, using only the `putchar` function exactly five times without using any variables of type `char`. The following conditions apply:
+    * Numbers are separated by a comma `,` followed by a space.
+    * Numbers are printed in ascending order with two digits.
+
+* **11. Inventing is a combination of brains and materials. The more brains you use, the less material you need**
+  * [100-print_comb3.c](./100-print_comb3.c): This C program prints all possible different combinations of two digits, using only the `putchar` function exactly five times without using any variables of type `char`. The following conditions apply:
+    * Numbers are separated by a comma `,` followed by a space.
+    * The two digits are different.
+    * `01` and `10` are considered the same combination of the digits `0` and `1`.
+    * Only the smallest combination of two digits is printed.
+    * Numbers are printed in ascending order.
+
+* **12. The success combination in business is: Do what you do better... and: do more of what you do...**
+  * [101-print_comb4.c](./101-print_comb4.c): This C program prints all possible different combinations of three digits, using only the `putchar` function exactly six times without using any variables of type `char`. The following conditions apply:
+    * Numbers are separated by a comma `,` followed by a space.
+    * The three digits are different.
+    * `012`, `120`, `102`, `021`, `201`, and `210` are considered the same combination of the digits `0`, `1`, and `2`.
+    * Only the smallest combination of three digits is printed.
+    * Numbers are printed in ascending order.
+
+* **13. Software is eating the World**
+  * [102-print_comb5.c](./102-print_comb5.c): This C program prints all possible combinations of two-digit numbers, using only the `putchar` function exactly eight times without using any variables of type `char`. The following conditions apply:
+    * Numbers range from `0` to `99`.
+    * Two numbers are separated by a space.
+    * Numbers are printed with two digits (e.g., `1` is printed as `01`).
+    * `00 01` and `01 00` are considered the same combination of the numbers `0` and `1`.
+    * Combinations of numbers are separated by a comma `,` followed by a space.
+    * Combinations of numbers are printed in ascending order.
